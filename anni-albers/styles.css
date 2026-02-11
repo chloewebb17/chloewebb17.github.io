@@ -37,7 +37,8 @@ p {
 }
 
 #row5 {
-    float: right;
+    margin-left: calc(90% * 2 / 6);
+    margin-right: calc(90% * 2 / 6);
 }
 
 #row6 {
