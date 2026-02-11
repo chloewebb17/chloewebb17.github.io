@@ -6,21 +6,39 @@ main {
     margin: 0 auto;
 }
 
+<<<<<<< HEAD
+#titlerow {
+    margin-left: calc(100% * 1 / 6)
+}
+
+=======
+>>>>>>> d506f0fdbe17b34b7a8a6ede2fe091d371f76971
 h1 {
     font-size: 3rem;
     margin-bottom: 0rem;
-    margin-left: calc(100% * 1 / 6)
+    margin-left: calc(100% * 1 / 6);
 }
 
 h3 {
     margin-top: 0.25rem;
-    margin-left: calc(100% * 1 / 6)
+<<<<<<< HEAD
+    margin-bottom: 2rem;
+=======
+    margin-left: calc(100% * 1 / 6);
+>>>>>>> d506f0fdbe17b34b7a8a6ede2fe091d371f76971
 }
 
+<<<<<<< HEAD
+p {
+    margin-left: calc(100% * 2 / 6);
+}
+
+=======
 p {
     width: 30%
-    margin-left: calc(100% * 2 / 6)
+    margin-left: calc(100% * 2 / 6);
 }
+>>>>>>> d506f0fdbe17b34b7a8a6ede2fe091d371f76971
 p.callout {
     font-size: 1.5rem;
     font-style: italic;
