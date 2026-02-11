@@ -28,7 +28,7 @@ p {
 
 #row3 p,
 #row4 p {
-    align-items: left;
+    margin-right: calc(90% * 0 / 6);
 }
 
 p.callout {
