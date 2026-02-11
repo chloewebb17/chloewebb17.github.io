@@ -47,6 +47,9 @@ p.callout {
     font-style: italic;
 }
 
+h2 {
+    align-items: center;
+}
 #aboutheauthor {
     margin-left: calc(100% * 2 / 6);
     margin-right: calc(100% * 2 / 6);
