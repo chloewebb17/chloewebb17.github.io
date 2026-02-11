@@ -6,12 +6,22 @@ main {
     margin: 0 auto;
 }
 
+#titlerow {
+    align-items: center;
+}
+
 h1 {
     font-size: 3rem;
+    margin-bottom: 0rem;
 }
+
+h3 {
+    margin-top: 0.25rem;
+}
+
+
 
 p.callout {
     font-size: 1.5rem;
     font-style: italic;
-    align-items: center;
 }
