@@ -26,6 +26,11 @@ p {
     text-align: justify;
 }
 
+#row3 p,
+#row4 p {
+    align-items: left;
+}
+
 p.callout {
     font-size: 1.5rem;
     font-style: italic;
