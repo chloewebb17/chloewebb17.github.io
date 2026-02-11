@@ -23,6 +23,7 @@ h3 {
 p {
     margin-left: calc(90% * 2 / 6);
     margin-right: calc(90% * 2 / 6);
+    text-align: justify;
 }
 
 p.callout {
