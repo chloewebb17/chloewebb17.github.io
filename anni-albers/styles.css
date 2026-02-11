@@ -25,8 +25,7 @@ p {
 }
 
 #row1,
-#row2,
-#row5 {
+#row2 {
     margin-left: calc(100% * 2 / 6);
     margin-right: calc(100% * 2 / 6);
 }
@@ -37,6 +36,7 @@ p {
     margin-right: calc(100% * 4 / 6);
 }
 
+#row5,
 #row6 {
     margin-left: calc(100% * 4 / 6);
     margin-right: calc(100% * 0 / 6)
