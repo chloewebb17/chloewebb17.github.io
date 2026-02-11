@@ -1,6 +1,7 @@
 /*Styles for both Anni-Albers layouts*/
 
 main {
+    position: relative;
     width: 90%;
     max-width: 1100px;
     margin: 0 auto;
@@ -30,13 +31,26 @@ p {
     margin-right: calc(100% * 2 / 6);
 }
 
-#row3 p,
-#row4 p {
+#row3 {
     margin-left: calc(100% * 0 / 6);
     margin-right: calc(100% * 4 / 6);
 }
 
-#row5,
+#row4 {
+    margin-left: calc(100% * 0 / 6);
+    width: calc(100% * 2 / 6);
+    position: absolute;
+}
+
+#row4 p {
+    margin-top: 0;
+}
+
+#row5 {
+    margin-left: calc(100% * 4 / 6);
+    margin-right: calc(100% * 0 / 6)
+}
+
 #row6 {
     margin-left: calc(100% * 4 / 6);
     margin-right: calc(100% * 0 / 6)
