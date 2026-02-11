@@ -53,12 +53,11 @@ p {
 
 #row6callout {
     margin-right: calc(100% * 0 / 6);
-    margin-left: calc (100% * 2 / 6);
+    margin-left: calc (100% * 4 / 6);
 }
 
 #row6 {
-    width: calc(100% * 2 / 6);
-    margin-right: calc(100% * 0 / 6);
+    margin-left: calc(100% * 4 / 6);
     position: absolute;
 }
 
