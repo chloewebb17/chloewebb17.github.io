@@ -8,10 +8,10 @@ main {
 
 h1 {
     font-size: 3rem;
-    line-height: 0.5rem
 }
+
 p.quote {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-style: italic;
     align-items: center;
 }
