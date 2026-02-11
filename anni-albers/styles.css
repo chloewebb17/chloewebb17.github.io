@@ -32,6 +32,13 @@ p {
     margin-right: calc(90% * 4 / 6);
 }
 
+#row5 p,
+#row6 {
+    float: right;
+    margin-left: calc(90% * 4 / 6);
+    margin-right: calc(90% * 0 / 6)
+}
+
 p.callout {
     font-size: 1.5rem;
     font-style: italic;
