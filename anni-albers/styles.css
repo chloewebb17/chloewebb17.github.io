@@ -112,4 +112,17 @@ h2 {
 #secondLayout main {
     display: grid;
     grid-template-columns: repeat(6, auto);
+    grid-template-rows: repeat(8, auto);
+    grid-template-areas: 
+        '. . . . . .'
+        '. . . . . .'
+        '. . . . . .'
+        '. . . . . .'
+        '. . . . . .'
+        '. . . . . .'
+        '. . . . . .'
+        '. . . . . .';
 }
+
+#secondLayout #titlerow { grid-area: title; }
+#secondLayout #para1 { grid-area: p1; }
