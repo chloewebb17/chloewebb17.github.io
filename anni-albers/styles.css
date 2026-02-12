@@ -122,7 +122,7 @@ h2 {
         '. . . . . .'
         '. . . . . .'
         '. . . . . .'
-        '. . . . . .';
+        'a2 a2 . . . .';
 }
 
 #secondLayout #titlerow { grid-area: title; }
@@ -143,6 +143,6 @@ h2 {
 #secondLayout #para11 { grid-area: p11; }
 #secondLayout #abouttheauthor2 { grid-area: a2; }
 
-#secondLayout p {
-    width: 50%;
+sectionLayout p {
+    width: 200%
 }
