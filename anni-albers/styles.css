@@ -114,7 +114,7 @@ h2 {
     grid-template-columns: repeat(6, auto);
     grid-template-rows: repeat(8, auto);
     grid-template-areas: 
-        '. . . . . .'
+        'title title title title title title'
         '. . . . . .'
         '. . . . . .'
         '. . . . . .'
@@ -126,3 +126,15 @@ h2 {
 
 #secondLayout #titlerow { grid-area: title; }
 #secondLayout #para1 { grid-area: p1; }
+#secondLayout #para2 { grid-area: p2; }
+#secondLayout #para3 { grid-area: p3; }
+#secondLayout #para4 { grid-area: p4; }
+#secondLayout #para5 { grid-area: p5; }
+#secondLayout #para6 { grid-area: p6; }
+#secondLayout #para7 { grid-area: p7; }
+#secondLayout #para8 { grid-area: p8; }
+#secondLayout #para9 { grid-area: p9; }
+#secondLayout #para10 { grid-area: p10; }
+#secondLayout #para11 { grid-area: p11; }
+#secondLayout #callout1 { grid-area: c1; }
+#secondLayout #abouttheauthor2 { grid-area: a2; }
