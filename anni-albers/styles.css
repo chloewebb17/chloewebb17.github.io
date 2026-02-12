@@ -143,3 +143,7 @@ h2 {
 #secondLayout #para11 { grid-area: p11; }
 #secondLayout #callout1 { grid-area: c1; }
 #secondLayout #abouttheauthor2 { grid-area: a2; }
+
+#secondLayout p {
+    width: 50%;
+}
