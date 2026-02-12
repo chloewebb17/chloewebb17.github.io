@@ -8,7 +8,7 @@ main {
 }
 
 #titlerow {
-    margin-left: calc(100% * 0 / 6)
+    align-items: center;
 }
 
 h1 {
@@ -115,9 +115,10 @@ h2 {
     grid-template-rows: repeat(8, auto);
     grid-template-areas: 
         'title title title title title title'
-        '. . . . . .'
-        '. . . . . .'
-        '. . . . . .'
+        'p1 p1 . . . .'
+        '. p2 p2 . c1 .'
+        'p4 . p3 p3 . .'
+        'p4 . . . . .'
         '. . . . . .'
         '. . . . . .'
         '. . . . . .'
@@ -127,13 +128,17 @@ h2 {
 #secondLayout #titlerow { grid-area: title; }
 #secondLayout #para1 { grid-area: p1; }
 #secondLayout #para2 { grid-area: p2; }
+#secondLayout #callout1 { grid-area: c1; }
 #secondLayout #para3 { grid-area: p3; }
 #secondLayout #para4 { grid-area: p4; }
 #secondLayout #para5 { grid-area: p5; }
+#secondLayout #callout2 { grid-area: c2; }
 #secondLayout #para6 { grid-area: p6; }
 #secondLayout #para7 { grid-area: p7; }
+#secondLayout #callout3 { grid-area: c3; }
 #secondLayout #para8 { grid-area: p8; }
 #secondLayout #para9 { grid-area: p9; }
+#secondLayout #callout4 { grid-area: c4; }
 #secondLayout #para10 { grid-area: p10; }
 #secondLayout #para11 { grid-area: p11; }
 #secondLayout #callout1 { grid-area: c1; }
