@@ -11,14 +11,20 @@
 	<!-- external and internal CSS -->
 	<link rel="stylesheet" href="styles.css" media="all">
 	<style>
-		/* in-file CSS here */
-	</style>
+		body {
+            font-family: helvetica;
+            text-align: justify;
+            margin: 0 30vw
+        }
 
-	<!-- external and internal JavaScript -->
-	<script src="scripts.js" defer></script>
-	<script>
-		// in-page JavaScript here
-	</script>
+        header {
+            text-align: center;
+        }
+
+        p {
+            color:dimgray;
+        }
+	</style>
 
 </head>
 <body>
@@ -27,7 +33,25 @@
 
     <p>Media queries are a function of CSS that mark a cornerstone of responsive design. They allow you to create different layouts depending on the size of the screen a webpage was viewed on. Designing responsively is a less tedious way of accounting for users viewing from differently sized screens.</p>
 
-    <p>Media queries work through increments, </p>
+    <p>Media queries work by checking if the viewport matches a rule specified and overrides the initial CSS code. The rule specification is called a breakpoint. It looks something like this:</p>
+
+        <textarea cols="30" rows="3">
+            <header>@media media-type and (feature-rule) {
+  /* Exact rules go here */
+}           </header>
+        </textarea>
+
+    <p>Here's an overview of certain media features and their functions:</p>
+        <ol>
+            <li>Orientation</li>
+                <p>This refers to whether the screen is in portrait or landscape. To be in portrait means the height is longer than the width, and the opposite is true of landscape. This can be useful for cut-and-dry situations, for example using a different photo to better fit the website depending on the orientation.</p>
+            <li>Max-width</li>
+                <p>This is used to define the next-smallest viewport width. It is best to use max-width in a few increments to account for different orientations such as tablets or horizontal phone screens.</p>
+            <li>Aspect-ratio</li>
+                <p>This often describes the relationship between the height <i>and</i> width of the screen. Certain aspect ratios are pretty common and it's not unwise to try and design with a specific few in mind (though it is better to imagine these things as a spectrum).</p>
+            <li>Color</li>
+                <p>Though we have largely written about things important to layout, you can change lots of things using media queries, such as the color of an object. Sometimes, you might want your mobile site to have a completely different design to make it more coherent and intentional. Maybe instead of white, this text box needs to be blue for the design to work. Media queries easily grant that flexibility.</p>
+        </ol>
 
 </body>
 </html>
