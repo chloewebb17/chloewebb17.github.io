@@ -56,3 +56,14 @@ header {
 #subjectivematters p {
     color: floralwhite;
 }
+
+@media screen and (orientation: landscape) {
+    
+    #rhodiepicture, #rhodietitle {
+        height: 40vh;
+    }
+
+    #rhodietitle h1 {
+        font-size: 3em;
+    }
+}
