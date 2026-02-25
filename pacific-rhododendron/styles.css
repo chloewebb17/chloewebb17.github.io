@@ -48,3 +48,11 @@ header {
 #rhodiestats p {
     color: darkslategray;
 }
+
+#subjectivematters {
+    padding: 12vw;
+}
+
+#subjectivematters p {
+    color: floralwhite;
+}
