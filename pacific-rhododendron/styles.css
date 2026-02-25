@@ -60,7 +60,7 @@ header {
 @media screen and (orientation: landscape) {
 
     header {
-        height: 50vh
+        height: 45vh
     }
 
     #rhodiepicture, #rhodietitle {
@@ -73,5 +73,11 @@ header {
 
     #rhodiestats {
         width: 50vw;
+        position: absolute;
+    }
+
+    #subjectivematters {
+        width: 50vw;
+        margin-left: 50vw;
     }
 }
