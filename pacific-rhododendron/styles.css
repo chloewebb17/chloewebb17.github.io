@@ -1,0 +1,40 @@
+/* mobile stuff */
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    width: 100vw;
+    height: 100vh;
+}
+
+#rhodiepicture {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(pacific\ rhodie\ 1.webp);
+    background-size: cover;
+    background-position: center center;
+}
+
+#rhodietitle {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+
+#rhodietitle h1 {
+    position: absolute;
+    bottom: 0;
+    left: 1em;
+    color: floralwhite;
+    font-size: 2.5em;
+    width: calc(100vw - 2em);
+}
