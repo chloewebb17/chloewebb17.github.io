@@ -58,12 +58,20 @@ header {
 }
 
 @media screen and (orientation: landscape) {
-    
+
+    header {
+        height: 50vh
+    }
+
     #rhodiepicture, #rhodietitle {
-        height: 40vh;
+        height: 45vh;
     }
 
     #rhodietitle h1 {
         font-size: 3em;
+    }
+
+    #rhodiestats {
+        width: 50vw;
     }
 }
