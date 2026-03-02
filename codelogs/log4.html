@@ -19,9 +19,14 @@
 
         h1 {
             text-align: center;
+            color: indigo;
         }
 
         p {
+            color: indigo;
+        }
+
+        li {
             color: indigo;
         }
 	</style>
@@ -38,13 +43,22 @@
                 <p>This is the most basic way of applying color. When working with a specific element like text or a shape, color will do the trick.</p>
             <li>Background-Color</li>
                 <p>This function only applies color to the very background of the page. Even when other elements aren't loading in, the background color you have chosen will show through.</p>
-            <li>border-color</li>
+            <li>Border-Color</li>
                 <p>This function only applies to the border around certain elements. Meaning, it will only show up if there's already a border in place. But that's true of every color, right? You can't color something that doesn't exist.</p>
         </ol>
 
     <p>Now let's look at some of the types of color identifiers.</p>
 
-
+        <ul>
+            <li>Named</li>
+                <p>When you begin to add a color in CSS, it gives suggestions based upon a set list of colors already in the system. CSS will display an approximation of the color and give it a name, like floralwhite, lightpink, or indigo.</p>
+            <li>RGB</li>
+                <p>RGB stands for "red, green, and blue." Your computer screen only has three colors of pixels- you guessed it, red, green, and blue- and any other colors are essentially an illusion created by the pixels mixing. Each color pixel is given a certain intensity on a scale of 0 to 255, with 255 being the maximum amount of the color possible.</p>
+            <li>Hexadecimal</li>
+                <p>Hexadecimal colors are identified by a 6-character code preceded by a hashtag, called a "hex code." Hex codes operate under the same logic as RGB, with two characters being assigned to the value of red, green, or blue, but hex ranges from 00 to FF. Hex often uses letters as well as numbers, and can be a more obscure method of identifying colors.</p>
+            <li>HSL</li>
+                <p>HSL stands for Hue, Saturation, and Light. Hue means color, Saturation refers to intensity, and Light is brightness. In CSS, each of these are scaled from 0-100%. You can create a shocking array of colors with this system as well.</p>
+        </ul>
 
 </body>
 </html>
