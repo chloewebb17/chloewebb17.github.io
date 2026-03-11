@@ -6,9 +6,8 @@ body {
     font-family: 'Poppins', Helvetica, Arial, Sans-Serif
 }
  h1 {
-    width: 76vw;
-    font-size: 10vw;
-    align-content: center;
+    text-align: center;
+    max-width: 76vw;
  }
 
  #tagline {
