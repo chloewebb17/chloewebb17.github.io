@@ -6,12 +6,12 @@ body {
     font-family: 'Poppins', Helvetica, Arial, Sans-Serif
 }
  h1 {
-    width: 76vw;
+    font-size: 76vw;
     align-items: center;
  }
 
  #tagline {
-    font-size: 0.5em
+    font-size: 0.75em
  }
 
 img {
