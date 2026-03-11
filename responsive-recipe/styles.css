@@ -6,4 +6,8 @@ body {
     font-family: 'Poppins', Helvetica, Arial, Sans-Serif
 }
 
+img {
+    width: 84vw;
+}
+
 /* desktop layout */
