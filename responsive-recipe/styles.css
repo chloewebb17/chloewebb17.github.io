@@ -8,9 +8,8 @@ body {
  h1 {
     text-align: center;
     align-items: center;
-    font-size: 10em;
-    padding-left: 16vw;
-    max-width: 76vw;
+    font-size: 3em;
+    margin-bottom: 1em
  }
 
  #tagline {
