@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ingredients Popup Test</title>
+  <style>
+    .ingredients {
+      position: relative;
+    }
+
+    .fulllist {
+      display: none;
+      position: absolute;
+      background: white;
+      padding: 1rem;
+      border: 1px solid bisque;
+      width: 90%;
+      left: 5%;
+      top: 100%;
+    }
+
+    .ingredients.open .fulllist {
+      display: block;
+    }
+
+    #button {
+      background: #330D0C;
+      color: white;
+      padding: 0.75rem 1rem;
+      border-radius: 6px;
+      cursor: pointer;
+      text-align: center;
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+
+  <section class="ingredients">
+    <h4 id="button">Ingredients</h4>
+    <div class="fulllist">
+      <ul>
+        <li>Sauce Ingredients
+          <ul>
+            <li>1-2 tbsp olive oil</li>
+            <li>1 tsp butter</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <script>
+    const ingredientsSection = document.querySelector('.ingredients');
+    const button = document.querySelector('#button');
+
+    button.addEventListener('click', () => {
+      ingredientsSection.classList.toggle('open');
+    });
+  </script>
+
+</body>
+</html>
