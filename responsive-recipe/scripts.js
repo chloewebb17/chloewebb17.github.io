@@ -4,9 +4,3 @@
   	button.addEventListener('click', () => {
    		ingredientsSection.classList.toggle('open');
  	 });
-
-    const closebutton = document.querySelector('.close-btn');
-
-    closebutton.addEventListener('click', () => {
-        ingredientsSection.classList.remove('open');
-    });
