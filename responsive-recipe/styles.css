@@ -131,7 +131,7 @@ img {
   display: flex;
   flex-direction: column;   /* stack vertically */
   gap: 0.15;               /* optional spacing */
-  font-size: clamp(0.25rem, 2.5vw, 0.5rem);
+  font-size: 0.5rem;
   margin-top: 0.5em;
   }
 
