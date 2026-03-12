@@ -62,7 +62,8 @@ img {
   border: none;
   padding: 0.5rem 1rem;
   border-radius: 6px;
-  font-size: 1rem;
+  font-size: clamp(0.5rem, 3vw, 3rem);
+  text-align: center;
   cursor: pointer;
   z-index: 1000;
 }
