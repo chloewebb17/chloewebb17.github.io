@@ -124,7 +124,7 @@ img {
     color: #330D0C;
   }
   
-  .desktoptitle {
+  .desktop title {
     display:flex;
     justify-content: space-between;
     width: calc(100% * 4 / 7);
