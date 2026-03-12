@@ -119,24 +119,34 @@ img {
     font-family: 'Poppins', Helvetica, Arial, Sans-Serif;
     color: #330D0C;
   }
+
+   header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
   
    h1 {
     text-align: left;
     align-items: left;
     font-size: 6vw;
     margin-bottom: 0.2em;
+    order: 1;
   }
 
   #spacetime {
   display: flex;
-  flex-direction: column;   /* stack vertically */
-  gap: 0.15;               /* optional spacing */
+  flex-direction: column;  
+  text-align: right;   
+  gap: 0.15;               
   font-size: 0.5rem;
   margin-top: 0.5em;
+  order: 2;
   }
 
    img {
     width: calc(100% * 3 / 7);
+    order: 3;
   }
 
    #tagline {
