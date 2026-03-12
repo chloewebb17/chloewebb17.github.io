@@ -12,6 +12,14 @@ body {
     margin-bottom: 0.2em
  }
 
+ #spacetime {
+    width: 84vw;
+    text-align: center;
+    white-space: nowrap; 
+    font-size: clamp(0.8rem, 1.5vw, 2rem); 
+    word-spacing: clamp(0.2rem, 2vw, 3rem); 
+ }
+
  #tagline {
     font-size: 0.75em
  }
