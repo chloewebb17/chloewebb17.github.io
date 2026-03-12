@@ -30,7 +30,7 @@ img {
     width: 84vw;
 }
 
-#fulllist {
+.fulllist {
     display: none;
     position: absolute;
     background: white;
