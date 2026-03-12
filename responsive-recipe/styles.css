@@ -127,6 +127,14 @@ img {
     margin-bottom: 0.2em;
   }
 
+  #spacetime {
+  display: flex;
+  flex-direction: column;   /* stack vertically */
+  gap: 0.3em;               /* optional spacing */
+  font-size: clamp(0.5rem, 2.5vw, 3rem);
+  margin-top: 0.5em;
+  }
+
    img {
     width: calc(100% * 3 / 7);
   }
