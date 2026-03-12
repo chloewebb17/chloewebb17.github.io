@@ -60,20 +60,6 @@ img {
     z-index: 999;
 }
 
-.closebutton {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  background: #330D0C;
-  color: white;
-  border: none;
-  padding: 0.5rem 1rem;
-  border-radius: 6px;
-  font-size: 1rem;
-  cursor: pointer;
-  z-index: 1000;
-}
-
 .ingredients.open .fulllist {
   display: block;
 }

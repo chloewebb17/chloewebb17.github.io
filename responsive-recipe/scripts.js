@@ -1,4 +1,4 @@
-	const ingredientsSection = document.querySelector('.ingredients');
+    ingredientsSection = document.querySelector('.ingredients');
  	const button = document.querySelector('#button');
 
   	button.addEventListener('click', () => {
