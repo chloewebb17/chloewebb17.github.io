@@ -75,16 +75,13 @@ img {
 .comments {
   margin-top: 3rem;
   padding: 2rem;
-  background: #fafafa;
-  border-radius: 10px;
 }
 
 .comment-form textarea {
   width: 100%;
-  height: 120px;
-  padding: 1rem;
+  height: 40px;
   border-radius: 8px;
-  border: 1px solid #ccc;
+  border: 1px solid white;
   resize: vertical;
   font-size: 1rem;
 }
@@ -94,10 +91,7 @@ img {
   padding: 0.5rem 1rem;
   background: #330D0C;
   color: white;
-  border: none;
   border-radius: 6px;
-  cursor: not-allowed;
-  opacity: 0.6;
 }
 
 /* desktop layout */
