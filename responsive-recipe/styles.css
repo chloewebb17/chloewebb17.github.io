@@ -119,6 +119,10 @@ img {
     font-family: 'Poppins', Helvetica, Arial, Sans-Serif;
     color: #330D0C;
   }
+
+    header {
+      display: flex
+    }
   
    h1 {
     order: 1;
