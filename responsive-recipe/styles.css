@@ -121,28 +121,30 @@ img {
   }
   
    h1 {
+    order: 1;
     text-align: left;
     align-items: left;
     font-size: 6vw;
     margin-bottom: 0.2em;
-    order: 1;
     width: 30%
   }
 
   #spacetime {
+  order: 2;
   display: flex;
+  align-items: flex-end;
   flex-direction: column;  
   text-align: right;   
   gap: 0.15;               
   font-size: 0.5rem;
   margin-top: 0.5em;
-  order: 2;
   width: 70%
   }
 
    img {
-    width: calc(100% * 3 / 7);
     order: 3;
+    width: calc(100% * 3 / 7);
+    
   }
 
    #tagline {
