@@ -13,11 +13,12 @@ body {
  }
 
  #spacetime {
-    width: 84vw;
-    text-align: center;
-    white-space: nowrap; 
-    font-size: clamp(0.8rem, 1.5vw, 2rem); 
-    word-spacing: clamp(0.2rem, 2vw, 3rem); 
+    display: flex;
+    justify-content: space-between; /* pushes the 3 spans apart */
+    width: 100%;
+    font-size: clamp(0.25rem, 1.5vw, 2rem);
+    margin-top: 0.5em;
+    white-space: nowrap;
  }
 
  #tagline {
