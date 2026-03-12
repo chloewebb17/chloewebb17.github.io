@@ -37,6 +37,10 @@ img {
   margin-bottom: 1rem;
 }
 
+.instructions {
+  font-size: clamp(1rem, 4vw, 4rem);
+}
+
 #button {
     background: #330D0C;
     color: white;
