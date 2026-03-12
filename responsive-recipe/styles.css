@@ -23,7 +23,7 @@ body {
  }
 
  #tagline {
-    font-size: clamp(0.75rem, 3vw, 3rem);
+    
  }
 
 img {
@@ -35,7 +35,7 @@ img {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 1rem;
-}
+}font-size: clamp(0.75rem, 3vw, 3rem);
 
 .instructions {
   font-size: clamp(1.5rem, 8vw, 8rem);
@@ -57,6 +57,7 @@ img {
     display: none;
     position: fixed;
     background: white;
+    font-size: clamp(0.75rem, 3vw, 3rem);
     inset: 0;
     padding: 2rem;
     border: 1px solid bisque;
@@ -83,6 +84,9 @@ img {
   display: block;
 }
 
+.stepbystep {
+  font-size: clamp(0.75rem, 3vw, 3rem);
+}
 .comments {
   margin-top: 1rem;
   padding: 2rem;
