@@ -52,8 +52,8 @@ img {
     top: 100%;
 }
 
-.fulllist.open {
-    display: block;
-  }
+.ingredients.open .fulllist {
+  display: block;
+}
 
 /* desktop layout */
