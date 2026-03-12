@@ -5,8 +5,8 @@
    		ingredientsSection.classList.toggle('open');
  	 });
 
-    const closeBtn = document.querySelector('.close-btn');
+    const closebutton = document.querySelector('.closebutton');
 
-    closeBtn.addEventListener('click', () => {
+    closebutton.addEventListener('click', () => {
         ingredientsSection.classList.remove('open');
     });
