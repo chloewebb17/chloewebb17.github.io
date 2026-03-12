@@ -32,6 +32,9 @@ img {
 
 #button {
     background: #330D0C;
+    background: red !important;
+  position: relative;
+  z-index: 9999;
     color: white;
     padding: 0.75rem 1rem;
     border-radius: 6px;
