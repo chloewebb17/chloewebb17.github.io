@@ -37,10 +37,6 @@ img {
   margin-bottom: 1rem;
 }font-size: clamp(0.75rem, 3vw, 3rem);
 
-.instructions {
-  font-size: clamp(1.5rem, 8vw, 8rem);
-}
-
 #button {
     background: #330D0C;
     color: white;
@@ -87,6 +83,11 @@ img {
 .stepbystep {
   font-size: clamp(0.75rem, 3vw, 3rem);
 }
+
+.instructions {
+  font-size: clamp(1.5rem, 8vw, 8rem);
+}
+
 .comments {
   margin-top: 1rem;
   padding: 2rem;
