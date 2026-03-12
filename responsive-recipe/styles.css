@@ -111,3 +111,19 @@ img {
 }
 
 /* desktop layout */
+
+@media screen and (orientation: landscape) {
+   body {
+    margin: 6vw;
+    background-color:bisque;
+    font-family: 'Poppins', Helvetica, Arial, Sans-Serif;
+    color: #330D0C;
+ }
+  
+   h1 {
+    text-align: left;
+    align-items: left;
+    font-size: 6vw;
+    margin-bottom: 0.2em;
+ }
+}
