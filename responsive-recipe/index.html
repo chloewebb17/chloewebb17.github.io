@@ -15,6 +15,18 @@
 	<style>
 		/* in-file CSS here */
 	</style>
+		
+	<!-- external and internal JavaScript --> 
+	<script src="scripts.js" defer></script>
+	<script>
+		const ingredientsSection = document.querySelector('.ingredients');
+ 		const button = document.querySelector('#button');
+
+  button.addEventListener('click', () => {
+    ingredientsSection.classList.toggle('open');
+  });
+  		/* I am gonna be honest here, when I wireframed this page, I did not know a button toggling a popup would need Javascript. I do not know Javascript, so Copilot gave me the code for this toggle. I hope that is okay. */
+	</script>
 
 </head>
 <body>
