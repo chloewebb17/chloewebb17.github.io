@@ -29,12 +29,6 @@ body {
 img {
     width: 84vw;
 }
- 
-.ingredients {
-  display: flex;
-  justify-content: flex-end;
-  position: relative;
-}
 
 #button {
     background: #330D0C;
