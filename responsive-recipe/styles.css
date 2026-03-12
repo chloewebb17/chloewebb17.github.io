@@ -14,9 +14,9 @@ body {
 
  #spacetime {
     display: flex;
-    justify-content: space-between; /* pushes the 3 spans apart */
+    justify-content: space-between;
     width: 100%;
-    font-size: clamp(0.75rem, 1.5vw, 2rem);
+    font-size: clamp(0.4rem, 1.5vw, 2rem);
     margin-top: 0.5em;
     white-space: nowrap;
  }
