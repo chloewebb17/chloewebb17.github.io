@@ -132,6 +132,12 @@ img {
     width: 30%
   }
 
+  #prepinfo {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+  }
+
   #spacetime {
   display: none;
   }
