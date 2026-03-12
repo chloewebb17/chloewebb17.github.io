@@ -119,12 +119,6 @@ img {
     font-family: 'Poppins', Helvetica, Arial, Sans-Serif;
     color: #330D0C;
   }
-
-   header {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-  }
   
    h1 {
     text-align: left;
@@ -132,6 +126,7 @@ img {
     font-size: 6vw;
     margin-bottom: 0.2em;
     order: 1;
+    width: 30%
   }
 
   #spacetime {
@@ -142,6 +137,7 @@ img {
   font-size: 0.5rem;
   margin-top: 0.5em;
   order: 2;
+  width: 70%
   }
 
    img {
