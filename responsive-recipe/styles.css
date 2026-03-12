@@ -29,7 +29,14 @@ body {
 img {
     width: 84vw;
 }
- 
+
+.top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
 #button {
     background: #330D0C;
     color: white;
