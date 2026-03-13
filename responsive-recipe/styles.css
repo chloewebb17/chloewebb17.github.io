@@ -175,7 +175,7 @@ img {
 
   .fulllist {
     display: block;
-    background-color: none;
+    background-color: transparent !important;
   }
 
   .closebutton {
