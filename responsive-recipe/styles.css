@@ -175,5 +175,10 @@ img {
 
   .fulllist {
     display: block;
+    background-color: none;
+  }
+
+  .closebutton {
+    display: none;
   }
 }
