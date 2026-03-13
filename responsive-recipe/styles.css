@@ -117,7 +117,36 @@ img {
 /* desktop layout */
 
 @media screen and (orientation: landscape) {
-   body {
+
+  body {
+    display: grid;
+    grid-template-columns: repeat(7, calc(100% / 7 ) );
+    grid-template-rows: repeat(7, auto);
+    gap: 20px;
+    grid-template-areas: 
+        '. . . . . . .'
+        '. . . . . . .'
+        '. . . . . . .'
+        '. . . . . . .'
+        '. . . . . . .'
+        '. . . . . . .'
+        '. . . . . . .'
+        '. . . . . . .'
+        '. . . . . . .';
+} 
+  body h1 { grid-area: h1; }
+  body #prepinfo { grid-area: p1; }
+  body img { grid-area: i1; }
+  body #tagline { grid-area: p2; }
+  body #button { grid-area: h2; }
+  body .fulllist { grid-area: p3; }
+  body .instructions { grid-area: h3; }
+  body .stepbystep { grid-area: p4; }
+  body #leaveacomment { grid-area: h4; }
+  body #comment { grid-area: p5; }
+  body #submit { grid-area: p6; }
+
+  body {
     margin: 6vw;
     background-color:bisque;
     font-family: 'Poppins', Helvetica, Arial, Sans-Serif;
