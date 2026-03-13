@@ -157,23 +157,15 @@ img {
     text-align: left;
     align-items: left;
     font-size: 6vw;
-    margin-bottom: 0.2em;
   }
 
   #prepinfo {
-    display: flex;
-    align-items: flex-end;
     flex-direction: column;
     font-size: 0.5em;
   }
 
   #spacetime {
   display: none;
-  }
-
-   img {
-    width: calc(100% * 3 / 7);
-    
   }
 
    #tagline {
