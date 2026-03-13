@@ -162,6 +162,7 @@ img {
   #prepinfo {
     flex-direction: column;
     font-size: 0.5em;
+    display: initial;
   }
 
   #spacetime {
@@ -170,5 +171,9 @@ img {
 
    #tagline {
     font-size: 0.75rem
+  }
+
+  .fulllist {
+    display: block;
   }
 }
