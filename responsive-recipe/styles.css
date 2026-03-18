@@ -119,32 +119,8 @@ img {
 @media screen and (orientation: landscape) {
 
   body {
-    display: grid;
-    grid-template-columns: repeat(7, calc(100% / 7 ) );
-    grid-template-rows: repeat(7, auto);
-    gap: 20px;
-    grid-template-areas: 
-        'h1 h1 h1 p1 . h4 h4'
-        'i1 i1 i1 h3 h3 p5 p5'
-        'i1 i1 i1 p4 p4 p6 p6'
-        'i1 i1 i1 p4 p4 . .'
-        'p2 p2 p2 p4 p4 . .'
-        'h2 h2 . p4 p4 . .'
-        'p3 p3 p3 p4 p4 . .'
-        'p3 p3 p3 p4 p4 . .'
-        'p3 p3 p3 p4 p4 . .';
-} 
-  body h1 { grid-area: h1; }
-  body #prepinfo { grid-area: p1; }
-  body img { grid-area: i1; }
-  body #tagline { grid-area: p2; }
-  body #button { grid-area: h2; }
-  body .fulllist { grid-area: p3; }
-  body .instructions { grid-area: h3; }
-  body .stepbystep { grid-area: p4; }
-  body #leaveacomment { grid-area: h4; }
-  body #comment { grid-area: p5; }
-  body #submit { grid-area: p6; }
+
+}
 
   body {
     margin: 6vw;
