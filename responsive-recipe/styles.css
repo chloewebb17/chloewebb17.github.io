@@ -1,37 +1,38 @@
 /* mobile layout */
 
 body {
-    margin: 8vw;
-    background-color:bisque;
-    font-family: 'Poppins', Helvetica, Arial, Sans-Serif;
-    color: #330D0C;
+  margin: 8vw;
+  background-color: bisque;
+  font-family: 'Poppins', Helvetica, Arial, Sans-Serif;
+  color: #330D0C;
 }
- h1 {
-    text-align: center;
-    align-items: center;
-    font-size: clamp(2rem, 12vw, 6rem);
-    margin-bottom: 0.2em
- }
 
- #prepinfo {
+h1 {
+  text-align: center;
+  align-items: center;
+  font-size: clamp(2rem, 12vw, 6rem);
+  margin-bottom: 0.2em
+}
+
+#prepinfo {
   display: none;
- }
+}
 
- #spacetime {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    font-size: clamp(0.5rem, 2.5vw, 3rem);
-    margin-top: 0.5em;
-    white-space: nowrap;
- }
+#spacetime {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-size: clamp(0.5rem, 2.5vw, 3rem);
+  margin-top: 0.5em;
+  white-space: nowrap;
+}
 
- #tagline {
-    font-size: clamp(0.75rem, 3vw, 3rem);
- }
+#tagline {
+  font-size: clamp(0.75rem, 3vw, 3rem);
+}
 
 img {
-    width: 84vw;
+  width: 84vw;
 }
 
 .toprow {
@@ -46,15 +47,15 @@ img {
 }
 
 #button {
-    background: #330D0C;
-    color: white;
-    padding: 0.75rem 1rem;
-    border-radius: 6px;
-    cursor: pointer;
-    margin: 0;
-    display: inline-block;
-    font-size: clamp(0.5rem, 3vw, 3rem);
-    text-align: center;
+  background: #330D0C;
+  color: white;
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 0;
+  display: inline-block;
+  font-size: clamp(0.5rem, 3vw, 3rem);
+  text-align: center;
 }
 
 .desktoplist {
@@ -62,15 +63,15 @@ img {
 }
 
 .fulllist {
-    display: none;
-    position: fixed;
-    background: white;
-    font-size: clamp(0.75rem, 3vw, 3rem);
-    inset: 0;
-    padding: 2rem;
-    border: 1px solid bisque;
-    overflow-y: auto;
-    z-index: 999;
+  display: none;
+  position: fixed;
+  background: white;
+  font-size: clamp(0.75rem, 3vw, 3rem);
+  inset: 0;
+  padding: 2rem;
+  border: 1px solid bisque;
+  overflow-y: auto;
+  z-index: 999;
 }
 
 .closebutton {
@@ -124,32 +125,40 @@ img {
 
   body {
     display: grid;
-    grid-template-columns: repeat(7, calc(100% / 7 ) );
-    grid-template-rows: repeat(7, auto);
+    grid-template-columns: repeat(7, calc(100% / 7));
+    grid-template-rows: repeat(9, auto);
     gap: 20px;
-    grid-template-areas: 
-        'h h h h . f f'
-        'h h h m m f f'
-        'h h h m m f f'
-        'h h h m m . .'
-        'h h h m m . .'
-        'm m . m m . .'
-        'm m m m m . .'
-        'm m m m m . .'
-        'm m m m m . .';    
-}
+    grid-template-areas:
+      'h h h h . f f'
+      'h h h m m f f'
+      'h h h m m f f'
+      'h h h m m . .'
+      'h h h m m . .'
+      'm m . m m . .'
+      'm m m m m . .'
+      'm m m m m . .'
+      'm m m m m . .';
+  }
 
-  body .header { grid-area: h; }
-  body .main { grid-area: m; }
-  body .footer { grid-area: f; }
+  body .header {
+    grid-area: h;
+  }
+
+  body .main {
+    grid-area: m;
+  }
+
+  body .footer {
+    grid-area: f;
+  }
 
   body {
     margin: 6vw;
-    background-color:bisque;
+    background-color: bisque;
     font-family: 'Poppins', Helvetica, Arial, Sans-Serif;
     color: #330D0C;
   }
-  
+
   h1 {
     text-align: left;
     align-items: left;
@@ -163,10 +172,10 @@ img {
   }
 
   #spacetime {
-  display: none;
+    display: none;
   }
 
-   #tagline {
+  #tagline {
     font-size: 0.75rem
   }
 
