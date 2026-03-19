@@ -57,6 +57,10 @@ img {
     text-align: center;
 }
 
+.desktoplist {
+  display: none;
+}
+
 .fulllist {
     display: none;
     position: fixed;
@@ -132,8 +136,7 @@ img {
         'm m . m m . .'
         'm m m m m . .'
         'm m m m m . .'
-        'm m m m m . .';
-        
+        'm m m m m . .';    
 }
 
   body header { grid-area: h; }
@@ -168,12 +171,9 @@ img {
   }
 
   .fulllist {
-    display: block;
-    background-color: transparent !important;
-    overflow-y: visible;
-    z-index: auto;
+    display: none;
   }
-
+  
   .closebutton {
     display: none;
   }
