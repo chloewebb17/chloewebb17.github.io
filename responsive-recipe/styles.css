@@ -139,9 +139,9 @@ img {
         'm m m m m . .';    
 }
 
-  body header { grid-area: h; }
-  body main { grid-area: m; }
-  body footer { grid-area: f; }
+  body .header { grid-area: h; }
+  body .main { grid-area: m; }
+  body .footer { grid-area: f; }
 
   body {
     margin: 6vw;
@@ -173,7 +173,7 @@ img {
   .fulllist {
     display: none;
   }
-  
+
   .closebutton {
     display: none;
   }
