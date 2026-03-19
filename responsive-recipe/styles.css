@@ -119,7 +119,20 @@ img {
 @media screen and (orientation: landscape) {
 
   body {
-
+    display: grid;
+    grid-template-columns: repeat(7, calc(100% / 7 ) );
+    grid-template-rows: repeat(7, auto);
+    gap: 20px;
+    grid-template-areas: 
+        'header header header header . main main'
+        'header header header main main main main'
+        'i1 i1 i1 p4 p4 p6 p6'
+        'i1 i1 i1 p4 p4 . .'
+        'p2 p2 p2 p4 p4 . .'
+        'h2 h2 . p4 p4 . .'
+        'p3 p3 p3 p4 p4 . .'
+        'p3 p3 p3 p4 p4 . .'
+        'p3 p3 p3 p4 p4 . .';
 }
 
   body {
