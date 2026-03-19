@@ -124,16 +124,21 @@ img {
     grid-template-rows: repeat(7, auto);
     gap: 20px;
     grid-template-areas: 
-        'header header header header . main main'
-        'header header header main main main main'
-        'i1 i1 i1 p4 p4 p6 p6'
-        'i1 i1 i1 p4 p4 . .'
-        'p2 p2 p2 p4 p4 . .'
-        'h2 h2 . p4 p4 . .'
-        'p3 p3 p3 p4 p4 . .'
-        'p3 p3 p3 p4 p4 . .'
-        'p3 p3 p3 p4 p4 . .';
+        'h h h h . f f'
+        'h h h m m f f'
+        'h h h m m f f'
+        'h h h m m . .'
+        'h h h m m . .'
+        'm m . m m . .'
+        'm m m m m . .'
+        'm m m m m . .'
+        'm m m m m . .';
+        
 }
+
+  body header { grid-area: h; }
+  body main { grid-area: m; }
+  body footer { grid-area: f; }
 
   body {
     margin: 6vw;
