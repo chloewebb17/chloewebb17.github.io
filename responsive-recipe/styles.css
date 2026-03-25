@@ -151,22 +151,23 @@ img {
   body .footer {
     grid-area: f;
   }
-  
+
 .header {
   display: grid;
   grid-template-columns: subgrid;
-  grid-template-rows: auto auto;
+  grid-template-rows: subgrid;
 }
 
 .main {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: subgrid;
   grid-template-rows: subgrid;
 }
 
 .footer {
   display: grid;
   grid-template-columns: subgrid;
+  grid-template-rows: subgrid;
 }
 
   body {
