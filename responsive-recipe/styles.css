@@ -213,6 +213,10 @@ img {
     display: none;
   }
 
+  .instructions {
+    display: hide;
+  }
+  
   .desktoplist {
     display: inline;
   }
