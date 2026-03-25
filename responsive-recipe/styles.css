@@ -217,7 +217,7 @@ img {
     display: inline;
   }
 
-  .instructions{
+  #stepbystep {
     font-size: default;
   }
 }
