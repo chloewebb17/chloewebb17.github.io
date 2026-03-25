@@ -125,16 +125,16 @@ img {
 
   body {
     display: grid;
-    grid-template-columns: repeat(7, calc(100% / 7));
+    grid-template-columns: repeat(6, calc(100% / 6));
     grid-template-rows: repeat(9, auto);
     gap: 20px;
     grid-template-areas:
       'h h h h . f f'
-      'h h h m m f f'
-      'h h h m m f f'
-      'h h h m m . .'
-      'h h h m m . .'
-      'm m . m m . .'
+      'h h h h . f f'
+      'h h h h . f f'
+      'h h h h . f f'
+      'h h h h . f f'
+      'm m m m m . .'
       'm m m m m . .'
       'm m m m m . .'
       'm m m m m . .';
@@ -151,6 +151,23 @@ img {
   body .footer {
     grid-area: f;
   }
+  
+.header {
+  display: grid;
+  grid-template-columns: subgrid;
+  grid-template-rows: auto auto;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: subgrid;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: subgrid;
+}
 
   body {
     margin: 6vw;
