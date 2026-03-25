@@ -216,4 +216,8 @@ img {
   .desktoplist {
     display: inline;
   }
+
+  .instructions{
+    font-size: default;
+  }
 }
