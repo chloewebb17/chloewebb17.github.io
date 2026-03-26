@@ -201,19 +201,15 @@ img {
     font-size: 0.75rem
   }
 
-  #button {
-    display: none;
-  }
+.toprow {
+  display: none;
+}
 
   .fulllist {
     display: none;
   }
 
   .closebutton {
-    display: none;
-  }
-
-  .instructions {
     display: none;
   }
 
