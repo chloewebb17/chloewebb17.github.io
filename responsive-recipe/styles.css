@@ -241,4 +241,8 @@ footer {
   #stepbystep {
     font-size: default;
   }
+
+  .comment-form textarea {
+    height: 120px;
+  }
 }
