@@ -214,9 +214,9 @@ img {
   }
 
   .instructions {
-    display: hide;
+    display: none;
   }
-  
+
   .desktoplist {
     display: inline;
   }
