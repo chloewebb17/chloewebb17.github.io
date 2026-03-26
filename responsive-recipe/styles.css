@@ -140,31 +140,35 @@ img {
       'm m m m m . .';
   }
 
-  body .header {
+  body header {
     grid-area: h;
   }
 
-  body .main {
+  body main {
     grid-area: m;
   }
 
-  body .footer {
+  body footer {
     grid-area: f;
   }
 
-.header {
+header {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas:
+  'title    title     title     p'
+  'i        i         i         i'
+  'tagline  tagline   tagline   tagline'
+}
+
+main {
   display: grid;
   grid-template-columns: subgrid;
   grid-template-rows: subgrid;
 }
 
-.main {
-  display: grid;
-  grid-template-columns: subgrid;
-  grid-template-rows: subgrid;
-}
-
-.footer {
+footer {
   display: grid;
   grid-template-columns: subgrid;
   grid-template-rows: subgrid;
@@ -177,28 +181,33 @@ img {
     color: #330D0C;
   }
 
-  h1 {
+  header h1 {
     text-align: left;
     align-items: left;
     font-size: 6vw;
+    grid-area: title;
   }
 
+/*
   #prepinfo {
     flex-direction: column;
     font-size: 0.5em;
     display: initial;
   }
+*/
 
-  img {
+  header img {
     width: 100%;
+    grid-area: i;
   }
 
-  #spacetime {
-    display: none;
+  header #spacetime {
+    grid-area: p
   }
 
-  #tagline {
-    font-size: 0.75rem
+  header #tagline {
+    font-size: 0.75rem;
+    grid-area: tagline;
   }
 
 .toprow {
