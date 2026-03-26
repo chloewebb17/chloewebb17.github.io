@@ -129,11 +129,11 @@ img {
     grid-template-rows: repeat(9, auto);
     gap: 20px;
     grid-template-areas:
-      'h h h h . f f'
-      'h h h h . f f'
-      'h h h h . f f'
-      'h h h h . f f'
-      'h h h h . f f'
+      'h h h h f f f'
+      'h h h h f f f'
+      'h h h h f f f'
+      'h h h h f f f'
+      'h h h h f f f'
       'm m m m m . .'
       'm m m m m . .'
       'm m m m m . .'
