@@ -184,6 +184,7 @@ footer {
     align-items: left;
     font-size: 6vw;
     grid-area: title;
+    margin-top: 0;
   }
 
 /*
