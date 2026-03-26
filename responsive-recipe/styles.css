@@ -234,6 +234,9 @@ footer {
     display: none;
   }
 
+  .desktoplistheader {
+    font-size: 2.5em;
+  }
   .desktoplist {
     display: inline;
   }
