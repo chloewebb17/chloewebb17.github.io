@@ -157,21 +157,19 @@ header {
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, auto);
   grid-template-areas:
-  'title    title     title     p'
-  'i        i         i         i'
-  'tagline  tagline   tagline   tagline'
+  'title    title     title     times'
+      'pic        pic   pic pic '
+  'tagline  tagline   tagline   tagline';
 }
 
 main {
   display: grid;
-  grid-template-columns: subgrid;
-  grid-template-rows: subgrid;
+  grid-template-columns: 2fr 3fr;
+  grid-template-rows: auto;
 }
 
 footer {
-  display: grid;
-  grid-template-columns: subgrid;
-  grid-template-rows: subgrid;
+  display: block;
 }
 
   body {
@@ -198,12 +196,23 @@ footer {
 
   header img {
     width: 100%;
-    grid-area: i;
+    grid-area: pic;
   }
 
   header #spacetime {
-    grid-area: p
+    grid-area: times;
   }
+  
+#spacetime {
+  display: block;
+  flex-direction: column;
+  justify-content: space-between;
+  width: auto;
+  font-size: 0.5em;
+  line-height: 1em;
+  margin-top: 0em;
+  white-space: normal;
+}
 
   header #tagline {
     font-size: 0.75rem;
