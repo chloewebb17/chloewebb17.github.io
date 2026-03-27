@@ -243,7 +243,7 @@ footer {
   }
 
   #stepbystep {
-    font-size: default;
+    font-size: 100%;
   }
 
   .comment-form textarea {
