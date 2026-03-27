@@ -1,0 +1,256 @@
+/* mobile layout */
+
+body {
+  margin: 8vw;
+  background-color: bisque;
+  font-family: 'Poppins', Helvetica, Arial, Sans-Serif;
+  color: #330D0C;
+}
+
+h1 {
+  text-align: center;
+  align-items: center;
+  font-size: clamp(2rem, 12vw, 6rem);
+  margin-bottom: 0.2em
+}
+
+#prepinfo {
+  display: none;
+}
+
+#spacetime {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-size: clamp(0.5rem, 2.5vw, 3rem);
+  margin-top: 0.5em;
+  white-space: nowrap;
+}
+
+#tagline {
+  font-size: clamp(0.75rem, 3vw, 3rem);
+}
+
+img {
+  width: 84vw;
+}
+
+.toprow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.instructions {
+  font-size: clamp(1.5rem, 8vw, 8rem);
+}
+
+#button {
+  background: #330D0C;
+  color: white;
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 0;
+  display: inline-block;
+  font-size: clamp(0.5rem, 3vw, 3rem);
+  text-align: center;
+}
+
+.desktoplist {
+  display: none;
+}
+
+.fulllist {
+  display: none;
+  position: fixed;
+  background: white;
+  font-size: clamp(0.75rem, 3vw, 3rem);
+  inset: 0;
+  padding: 2rem;
+  border: 1px solid bisque;
+  overflow-y: auto;
+  z-index: 999;
+}
+
+.closebutton {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: #330D0C;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-size: clamp(0.5rem, 3vw, 3rem);
+  text-align: center;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.ingredients.open .fulllist {
+  display: block;
+}
+
+.stepbystep {
+  font-size: clamp(0.75rem, 3vw, 3rem);
+}
+
+.comments {
+  margin-top: 1rem;
+  padding: 2rem;
+}
+
+.comment-form textarea {
+  width: 100%;
+  height: 40px;
+  border-radius: 8px;
+  border: 1px solid white;
+  resize: vertical;
+  font-size: 1rem;
+}
+
+#submit {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background: #330D0C;
+  color: white;
+  border-radius: 6px;
+}
+
+/* desktop layout */
+
+@media screen and (orientation: landscape) {
+
+  body {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(9, auto);
+    gap: 20px;
+    grid-template-areas:
+      'h h h h f f f'
+      'h h h h f f f'
+      'h h h h f f f'
+      'h h h h f f f'
+      'h h h h f f f'
+      'm m m m m . .'
+      'm m m m m . .'
+      'm m m m m . .'
+      'm m m m m . .';
+  }
+
+  body header {
+    grid-area: h;
+  }
+
+  body main {
+    grid-area: m;
+  }
+
+  body footer {
+    grid-area: f;
+  }
+
+header {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas:
+  'title    title     title     times'
+      'pic        pic   pic pic '
+  'tagline  tagline   tagline   tagline';
+}
+
+main {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  grid-template-rows: auto;
+}
+
+footer {
+  display: block;
+}
+
+  body {
+    margin: 6vw;
+    background-color: bisque;
+    font-family: 'Poppins', Helvetica, Arial, Sans-Serif;
+    color: #330D0C;
+  }
+
+  header h1 {
+    text-align: left;
+    align-items: left;
+    font-size: 6vw;
+    grid-area: title;
+    margin-top: 0;
+  }
+
+/*
+  #prepinfo {
+    flex-direction: column;
+    font-size: 0.5em;
+    display: initial;
+  }
+*/
+
+  header img {
+    width: 100%;
+    grid-area: pic;
+  }
+
+  header #spacetime {
+    grid-area: times;
+  }
+  
+#spacetime {
+  display: flex;
+  flex-direction: column;
+   justify-content: center;
+  width: auto;
+  font-size: 0.75em;
+  line-height: 1em;
+  margin-top: 0em;
+  white-space: normal;
+  gap: 10px;
+
+}
+
+  header #tagline {
+    font-size: 1rem;
+    grid-area: tagline;
+  }
+
+.toprow {
+  display: none;
+}
+
+  .fulllist {
+    display: none;
+  }
+
+  .closebutton {
+    display: none;
+  }
+
+  .desktoplistheader {
+    font-size: 30pt;
+    text-align: center;
+  }
+  .desktoplist {
+    display: inline;
+  }
+
+  .stepbystep {
+    font-size: 1em;
+  }
+
+  .comment-form textarea {
+    height: 120px;
+  }
+
+  #photocredit {
+    font-size: 0.75em;
+  }
+}
