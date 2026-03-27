@@ -249,4 +249,8 @@ footer {
   .comment-form textarea {
     height: 120px;
   }
+
+  #photocredit {
+    font-size: 0.5em;
+  }
 }
