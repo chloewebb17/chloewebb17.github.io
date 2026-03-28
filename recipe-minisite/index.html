@@ -8,173 +8,174 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chloe's Recipe Hub</title>
 
-    	<!-- Import Poppins from Google Fonts -->
-	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Import Poppins from Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 
     <!-- external and internal CSS -->
     <style>
         /* CSS for responsive menu demo */
 
-/* define variables */
-:root {
-    --nav-height: 3rem;
-    --nav-bkgd-color: #330D0C;
-    --nav-text-color: bisque;
-    --nav-hover-bkgd-color: white;
-    --nav-hover-text-color: #330D0C;
-}
+        /* define variables */
+        :root {
+            --nav-height: 3rem;
+            --nav-bkgd-color: #330D0C;
+            --nav-text-color: bisque;
+            --nav-hover-bkgd-color: white;
+            --nav-hover-text-color: #330D0C;
+        }
 
-* {
-    box-sizing: border-box;
-}
+        * {
+            box-sizing: border-box;
+        }
 
-body {
-    margin: 0;
-    padding: var(--nav-height) 0 0 0;
-    font-family: 'Poppins', Helvetica, Arial, Sans-Serif;
-    background-color: bisque;
-}
+        body {
+            margin: 0;
+            padding: var(--nav-height) 0 0 0;
+            font-family: 'Poppins', Helvetica, Arial, Sans-Serif;
+            background-color: bisque;
+        }
 
-h1 {
-    font-size: clamp(2rem, 12vw, 6rem);
-    text-align: center;
-    color:#330D0C;
-}
+        h1 {
+            font-size: clamp(2rem, 12vw, 6rem);
+            text-align: center;
+            color: #330D0C;
+        }
 
-nav {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: var(--nav-height);
-    background-color: var(--nav-bkgd-color);
-}
+        nav {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: var(--nav-height);
+            background-color: var(--nav-bkgd-color);
+        }
 
-#navBurger {
-    position: relative;
-    display: block;
-    font-size: 2rem;
-    color: var(--nav-text-color);
-    padding: 0.1em 0 0 0.3em;
-    max-height: 2rem;
-}
+        #navBurger {
+            position: relative;
+            display: block;
+            font-size: 2rem;
+            color: var(--nav-text-color);
+            padding: 0.1em 0 0 0.3em;
+            max-height: 2rem;
+        }
 
-nav ul {
-    position: relative;
-    background-color: var(--nav-bkgd-color);
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
+        nav ul {
+            position: relative;
+            background-color: var(--nav-bkgd-color);
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
 
-nav>ul {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.5s;
-}
+        nav>ul {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.5s;
+        }
 
-nav.clicked>ul {
-    max-height: 90vh;
-}
+        nav.clicked>ul {
+            max-height: 90vh;
+        }
 
-nav>ul>li {
-    position: relative;
-    background-color: var(--nav-bkgd-color);
-    display: block;
-    margin: 1rem;
-}
+        nav>ul>li {
+            position: relative;
+            background-color: var(--nav-bkgd-color);
+            display: block;
+            margin: 1rem;
+        }
 
-nav>ul>li>a {
-    display: block;
-    width: 100%;
-    height: 100%;
-    padding: 0.5rem;
-}
+        nav>ul>li>a {
+            display: block;
+            width: 100%;
+            height: 100%;
+            padding: 0.5rem;
+        }
 
-nav>ul>li>a::after {
-    position: absolute;
-    content: "⌄";
-    right: 0.3rem;
-    top: 0.2rem;
-    color: inherit;
-    font-size: 110%;
-}
+        nav>ul>li>a::after {
+            position: absolute;
+            content: "⌄";
+            right: 0.3rem;
+            top: 0.2rem;
+            color: inherit;
+            font-size: 110%;
+        }
 
-nav>ul>li>ul {
-    margin: 0 0 0 1rem;
-    background-color: inherit;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.5s;
-}
+        nav>ul>li>ul {
+            margin: 0 0 0 1rem;
+            background-color: inherit;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.5s;
+        }
 
-nav>ul>li.clicked>ul {
-    max-height: 90vh;
-}
+        nav>ul>li.clicked>ul {
+            max-height: 90vh;
+        }
 
-nav>ul>li>ul>li {
-    padding: 0.5rem 0 0.5rem 0.5rem;
-}
+        nav>ul>li>ul>li {
+            padding: 0.5rem 0 0.5rem 0.5rem;
+        }
 
-nav a {
-    text-decoration: none;
-    color: var(--nav-text-color);
-}
+        nav a {
+            text-decoration: none;
+            color: var(--nav-text-color);
+        }
 
-nav>ul>li>ul>li:hover {
-    background-color: var(--nav-hover-bkgd-color);
-}
+        nav>ul>li>ul>li:hover {
+            background-color: var(--nav-hover-bkgd-color);
+        }
 
-nav>ul>li>ul>li:hover a {
-    color: var(--nav-hover-text-color);
-}
+        nav>ul>li>ul>li:hover a {
+            color: var(--nav-hover-text-color);
+        }
 
 
-/* ----- MEDIA QUERY for landscape/desktop layout ----- */
-@media screen and (orientation: landscape) {
+        /* ----- MEDIA QUERY for landscape/desktop layout ----- */
+        @media screen and (orientation: landscape) {
 
-    h1 {
-        font-size: 6vw;
-    }
-    #navBurger {
-        display: none;
-    }
+            h1 {
+                font-size: 6vw;
+            }
 
-    nav>ul {
-        overflow: visible;
-    }
+            #navBurger {
+                display: none;
+            }
 
-    nav>ul>li {
-        float: left;
-        margin: 0.5rem;
-    }
+            nav>ul {
+                overflow: visible;
+            }
 
-    nav>ul>li a {
-        padding-right: 0.5rem;
-        margin: 0;
-    }
+            nav>ul>li {
+                float: left;
+                margin: 0.5rem;
+            }
 
-    nav>ul>li>ul {
-        margin: 0 0.5rem 0.5rem 0;
-        visibility: hidden;
-        position: absolute;
-    }
+            nav>ul>li a {
+                padding-right: 0.5rem;
+                margin: 0;
+            }
 
-    nav>ul>li.clicked>ul {
-        display: block;
-        visibility: visible;
-    }
+            nav>ul>li>ul {
+                margin: 0 0.5rem 0.5rem 0;
+                visibility: hidden;
+                position: absolute;
+            }
 
-    nav>ul>li>ul li {
-        margin: 0;
-        white-space: nowrap;
-    }
+            nav>ul>li.clicked>ul {
+                display: block;
+                visibility: visible;
+            }
 
-    nav>ul>li>a::after {
-        content: "";
-    }
+            nav>ul>li>ul li {
+                margin: 0;
+                white-space: nowrap;
+            }
 
-}
+            nav>ul>li>a::after {
+                content: "";
+            }
+
+        }
     </style>
 
     <!-- external and internal JavaScript -->
@@ -188,12 +189,13 @@ nav>ul>li>ul>li:hover a {
         <a id="navBurger">&#9776;</a>
 
         <ul>
-            <li><a href= "https://chloewebb17.github.io/recipe-minisite/#">Home</a>
+            <li><a href="https://chloewebb17.github.io/recipe-minisite/#">Home</a>
             </li>
             <li><a href="#">My Favorite Recipe Sites</a>
                 <ul>
                     <li><a href="https://www.feastingathome.com/asian-cucumber-salad/">Feasting at Home</a></li>
-                    <li><a href="https://anitalianinmykitchen.com/authentic-cacio-e-pepe/">An Italian in my Kitchen</a></li>
+                    <li><a href="https://anitalianinmykitchen.com/authentic-cacio-e-pepe/">An Italian in my Kitchen</a>
+                    </li>
                     <li><a href="https://www.maangchi.com/recipe/kimchi-jjigae">Cooking Korean with Maangchi</a></li>
                 </ul>
             </li>
@@ -212,6 +214,18 @@ nav>ul>li>ul>li:hover a {
 
     <main>
         <h1>Chloe's Recipe Hub</h1>
+
+        <p id="funny">Try my recipe boy</p>
+
+        <p id="box1">Welcome to my recipe hub! I'm no cook, but I try my hardest to find recipes that work for me and my
+            limited skillset. I enjoy shortcuts and reusing ingredients over and over again. Hope you like garlic!</p>
+        <img href="rawkkim-1_SenAyTAXg-unsplash.jpg">
+        <p id="box2">If you want to see more, follow me on my <a href="https://github.com/chloewebb17">Github</a>!
+            Photo by <a
+                href="https://unsplash.com/@rawkkim?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">rawkkim</a>
+            on <a
+                href="https://unsplash.com/photos/close-up-of-spicy-korean-stew-with-tofu-and-scallions-1_SenAyTAXg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+        </p>
     </main>
 </body>
 
