@@ -11,7 +11,8 @@ h1 {
   text-align: center;
   align-items: center;
   font-size: clamp(2rem, 12vw, 6rem);
-  margin-bottom: 0.2em
+  margin-bottom: 0.2em;
+  margin-top: 10vh;
 }
 
 #prepinfo {
