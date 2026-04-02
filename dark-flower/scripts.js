@@ -9,6 +9,9 @@ document.addEventListener("DOMContentLoaded", function () {
         
         // when clicked, add class to the body called "darkMode"
         document.body.classList.toggle("darkMode");
+        // added more for customization reasons, used ai for help
+        document.getElementById("rhodietitle").classList.toggle("darkMode");
+        document.getElementById("toggleDarkMode").classList.toggle("darkMode");
         
     });
 
