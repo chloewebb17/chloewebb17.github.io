@@ -57,6 +57,10 @@ header {
     color: floralwhite;
 }
 
+#button {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 @media screen and (orientation: landscape) {
 
     header {
