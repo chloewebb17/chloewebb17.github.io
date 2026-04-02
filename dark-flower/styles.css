@@ -61,7 +61,10 @@ header {
     font-family: Arial, Helvetica, sans-serif;
     background-color: darkslategray;
     color: floralwhite;
-    text-align: right;
+    padding: 15px 30px;       /* I had to ask AI about how to modify buttons bc the usual is not working */
+    font-size: 1.5em;
+    border: none;             /* Remove border */
+    border-radius: 5px;       /* Rounded corners */
 }
 
 @media screen and (orientation: landscape) {
