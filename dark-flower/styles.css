@@ -61,10 +61,11 @@ header {
     font-family: Arial, Helvetica, sans-serif;
     background-color: darkslategray;
     color: floralwhite;
-    padding: 15px 30px;       /* I had to ask AI about how to modify buttons bc the usual is not working */
-    font-size: 1.5em;
+    padding: 10px 20px;       /* I had to ask AI about how to modify buttons bc the usual is not working */
+    font-size: 1.25em;
     border: none;             /* Remove border */
     border-radius: 5px;       /* Rounded corners */
+    float: right;
 }
 
 @media screen and (orientation: landscape) {
