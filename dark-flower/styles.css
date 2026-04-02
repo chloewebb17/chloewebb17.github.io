@@ -68,6 +68,19 @@ header {
     float: right;
 }
 
+body.darkMode {
+    background-color: darkslategrey;
+}
+
+#rhodietitle.darkMode {
+    color: darkslategray;
+}
+
+#toggleDarkMode.darkMode {
+    background-color: floralwhite;
+    color: darkslategray;
+}
+
 @media screen and (orientation: landscape) {
 
     header {
