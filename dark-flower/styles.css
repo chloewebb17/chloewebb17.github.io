@@ -57,10 +57,11 @@ header {
     color: floralwhite;
 }
 
-#button {
+#toggleDarkMode {
     font-family: Arial, Helvetica, sans-serif;
     background-color: darkslategray;
     color: floralwhite;
+    text-align: right;
 }
 
 @media screen and (orientation: landscape) {
