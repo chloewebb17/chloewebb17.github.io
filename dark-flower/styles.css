@@ -51,9 +51,6 @@ header {
 
 #subjectivematters {
     padding: 12vw;
-}
-
-#subjectivematters p {
     color: floralwhite;
 }
 
@@ -79,7 +76,11 @@ body.darkMode {
 
 #rhodiestats.darkMode {
     background-color: darkgray;
-    color:darkslategray;
+    color: floralwhite
+}
+
+#subjectivematters.darkMode {
+    color:darkgray
 }
 
 @media screen and (orientation: landscape) {
