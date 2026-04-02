@@ -12,6 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
         // added more for customization reasons, used ai for help
         document.getElementById("rhodietitle").classList.toggle("darkMode");
         document.getElementById("toggleDarkMode").classList.toggle("darkMode");
+        document.getElementById("rhodiestats").classList.toggle("darkMode");
         
     });
 
