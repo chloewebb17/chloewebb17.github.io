@@ -1,28 +1,177 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	
-	<!-- meta tags and title -->
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Page Title</title>
 
-	<!-- external and internal CSS -->
-	<link rel="stylesheet" href="styles.css" media="all">
-	<style>
-		/* home page will use in-file CSS */
-	</style>
+    <!-- meta tags and title -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Title</title>
 
-	<!-- external and internal JavaScript -->
-	<script src="scripts.js" defer></script>
-	<script>
-		// in-page JavaScript here
-	</script>
+    <!-- external and internal CSS -->
+    <style>
+        /* home page will use in-file CSS */
+        /* CSS for responsive menu demo */
+        /* define variables */
+        
+        :root {
+            --nav-height: 3rem;
+            --nav-bkgd-color: #3C19FF;
+            --nav-text-color: white;
+            --nav-hover-bkgd-color: white;
+            --nav-hover-text-color: #3C19FF;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Helvetica;
+        }
+
+        nav {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: var(--nav-height);
+            background-color: var(--nav-bkgd-color);
+        }
+
+        #navBurger {
+            position: relative;
+            display: block;
+            font-size: 2rem;
+            color: var(--nav-text-color);
+            padding: 0.1em 0 0 0.3em;
+            max-height: 2rem;
+        }
+
+        nav ul {
+            position: relative;
+            background-color: var(--nav-bkgd-color);
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav>ul {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.5s;
+        }
+
+        nav.clicked>ul {
+            max-height: 90vh;
+        }
+
+        nav>ul>li {
+            position: relative;
+            background-color: var(--nav-bkgd-color);
+            display: block;
+            margin: 1rem;
+        }
+
+        nav>ul>li>a {
+            display: block;
+            width: 100%;
+            height: 100%;
+            padding: 0.5rem;
+        }
+
+        nav>ul>li>a::after {
+            position: absolute;
+            content: "⌄";
+            right: 0.3rem;
+            top: 0.2rem;
+            color: inherit;
+            font-size: 110%;
+        }
+
+        nav>ul>li>ul {
+            margin: 0 0 0 1rem;
+            background-color: inherit;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.5s;
+        }
+
+        nav>ul>li.clicked>ul {
+            max-height: 90vh;
+        }
+
+        nav>ul>li>ul>li {
+            padding: 0.5rem 0 0.5rem 0.5rem;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: var(--nav-text-color);
+        }
+
+        nav>ul>li>ul>li:hover {
+            background-color: var(--nav-hover-bkgd-color);
+        }
+
+        nav>ul>li>ul>li:hover a {
+            color: var(--nav-hover-text-color);
+        }
+
+        /* ----- MEDIA QUERY for landscape/desktop layout ----- */
+        @media screen and (orientation: landscape) {
+            #navBurger {
+                display: none;
+            }
+
+            nav>ul {
+                overflow: visible;
+            }
+
+            nav>ul>li {
+                float: left;
+                margin: 0.5rem;
+            }
+
+            nav>ul>li a {
+                padding-right: 0.5rem;
+                margin: 0;
+            }
+
+            nav>ul>li>ul {
+                margin: 0 0.5rem 0.5rem 0;
+                visibility: hidden;
+                position: absolute;
+            }
+
+            nav>ul>li.clicked>ul {
+                display: block;
+                visibility: visible;
+            }
+
+            nav>ul>li>ul li {
+                margin: 0;
+                white-space: nowrap;
+            }
+
+            nav>ul>li>a::after {
+                content: "";
+            }
+
+        }
+    </style>
+
+    <!-- external and internal JavaScript -->
+    <script src="scripts.js" defer></script>
+    <script>
+        // in-page JavaScript here
+    </script>
 
 </head>
+
 <body>
 
-	<nav>
+    <nav>
         <a id="navBurger">&#9776;</a>
 
         <ul>
@@ -56,11 +205,12 @@
 
     </nav>
 
-<main>
-    <header>
-        <h1><b>AniVault</b></h1>
-    </header>
-</main>
+    <main>
+        <header>
+            <h1><b>AniVault</b></h1>
+        </header>
+    </main>
 
 </body>
+
 </html>
