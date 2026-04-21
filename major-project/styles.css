@@ -105,6 +105,12 @@ nav>ul>li>ul>li:hover a {
     color: var(--nav-hover-text-color);
 }
 
+h1 {
+    font-family: "comba", helvetica, sans-serif;
+    margin-top: 1em;
+    font-size: 5em;
+}
+
 /* ----- MEDIA QUERY for landscape/desktop layout ----- */
 @media screen and (orientation: landscape) {
     #navBurger {
