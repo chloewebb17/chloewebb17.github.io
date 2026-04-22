@@ -122,11 +122,13 @@
         }
 
         h1 {
-            font-family:"comba", helvetica, sans-serif;
+            font-family: "comba", helvetica, sans-serif;
             margin-top: 1em;
-            font-size: clamp(2rem, 8vw, 5rem); /* Scales font on mobile site */
+            font-size: clamp(3em, 13vw, 6.5em);
+            /* Scales font on mobile site */
             text-align: center;
-            padding: 0 1rem; /* to prevent from going offscreen */
+            padding: 0 1rem;
+            /* to prevent from going offscreen */
         }
 
         /* ----- MEDIA QUERY for landscape/desktop layout ----- */
@@ -169,6 +171,10 @@
                 content: "";
             }
 
+            h1 {
+                margin-top: 1em;
+                font-size: 5.5em;
+            }
         }
     </style>
 
@@ -219,7 +225,25 @@
     <main>
         <header>
             <h1><b>AniVault</b></h1>
+            <p>Your guide to the groups behind your favorite anime, new and old. Have you ever wondered what sort of
+                process created the shows you love, and the teams that worked hard on them? Animation studios in Japan
+                have a vastly interconnected history, but each one has made left its unique touch on every project it's
+                seen. Click through the website to learn more about a list of studios I've curated, and why I think
+                they're important!</p>
         </header>
+
+        <section class="grid">
+            <div class="card"><img src="https://via.placeholder.com/400x250"></div>
+            <div class="card"><img src="https://via.placeholder.com/400x250"></div>
+            <div class="card"><img src="https://via.placeholder.com/400x250"></div>
+            <div class="card"><img src="https://via.placeholder.com/400x250"></div>
+            <div class="card"><img src="https://via.placeholder.com/400x250"></div>
+            <div class="card"><img src="https://via.placeholder.com/400x250"></div>
+            <div class="card"><img src="https://via.placeholder.com/400x250"></div>
+            <div class="card"><img src="https://via.placeholder.com/400x250"></div>
+            <div class="card"><img src="https://via.placeholder.com/400x250"></div>
+        </section>
+
     </main>
 
 </body>
