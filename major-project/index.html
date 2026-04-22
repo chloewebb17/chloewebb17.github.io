@@ -124,7 +124,9 @@
         h1 {
             font-family:"comba", helvetica, sans-serif;
             margin-top: 1em;
-            font-size: 5em;
+            font-size: clamp(2rem, 8vw, 5rem); /* Scales font on mobile site */
+            text-align: center;
+            padding: 0 1rem; /* to prevent from going offscreen */
         }
 
         /* ----- MEDIA QUERY for landscape/desktop layout ----- */
