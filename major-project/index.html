@@ -148,7 +148,8 @@
 
         .grid {
             display: grid;
-            grid-template-columns: 1fr;   /* mobile grid */
+            grid-template-columns: 1fr;
+            /* mobile grid */
             gap: 2rem;
             padding: 2rem;
 
@@ -200,7 +201,22 @@
             }
 
             .grid {
-                grid-template-columns: repeat(3, 1fr); /* desktop grid */
+                grid-template-columns: repeat(3, 1fr);
+                /* desktop grid */
+            }
+        }
+
+        @media (max-width: 900px) {
+            .grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .title {
+                grid-column: 1 / -1;
+            }
+
+            .intro {
+                grid-column: 1 / -1;
             }
         }
     </style>
