@@ -148,7 +148,7 @@
 
         .grid {
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
+            grid-template-columns: 1fr;   /* mobile grid */
             gap: 2rem;
             padding: 2rem;
 
@@ -198,12 +198,9 @@
                 margin-top: 1em;
                 font-size: 5.5em;
             }
-        }
 
-        /* I couldn't figure out how to do this part mobile-first so we're getting all twisted up with this i guess. */
-        @media (max-width: 500px) {
             .grid {
-                grid-template-columns: 1fr;
+                grid-template-columns: repeat(3, 1fr); /* desktop grid */
             }
         }
     </style>
