@@ -155,6 +155,18 @@
 
         }
 
+        .card img {
+            width: 100%;
+            display: block;
+            transition: transform 0.4s ease, filter 0.4s ease;
+        }
+
+        /* hovering effect */
+        .card:hover img {
+            transform: translateY(-8px) scale(1.05);
+            filter: brightness(1.2) opacity(0.85);
+        }
+
         /* ----- MEDIA QUERY for landscape/desktop layout ----- */
         @media screen and (orientation: landscape) {
             #navBurger {
@@ -203,20 +215,6 @@
             .grid {
                 grid-template-columns: repeat(3, 1fr);
                 /* desktop grid */
-            }
-        }
-
-        @media (max-width: 900px) {
-            .grid {
-                grid-template-columns: repeat(2, 1fr);
-            }
-
-            .title {
-                grid-column: 1 / -1;
-            }
-
-            .intro {
-                grid-column: 1 / -1;
             }
         }
     </style>
