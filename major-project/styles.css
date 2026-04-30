@@ -113,12 +113,21 @@ h1 {
 
 .coolshows {
     background-color:#3C19FF;
-    padding: 0 1rem;
+    color: white;
+    width: 100vw;
+}
 
+.card {
+    padding: 0 1rem;
 }
 
 img {
     max-width: 100%;
+    margin-top: 2em;
+}
+
+.cardtext {
+    margin-bottom: 2em
 }
 /* ----- MEDIA QUERY for landscape/desktop layout ----- */
 @media screen and (orientation: landscape) {
