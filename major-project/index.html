@@ -143,7 +143,7 @@
             padding: 0 1rem;
             align-items: center;
             justify-content: center;
-            margin-bottom: 3em
+            margin-bottom: 2em
         }
 
         .grid {
@@ -157,12 +157,6 @@
             width: 100%;
             display: block;
             transition: transform 0.4s ease, filter 0.4s ease;
-        }
-
-        /* hovering effect */
-        .card:hover img {
-            transform: translateY(-8px) scale(1.05); /* move up and make it a little bigger */
-            filter: brightness(1.2) opacity(0.85);
         }
 
         /* ----- MEDIA QUERY for landscape/desktop layout ----- */
@@ -214,6 +208,13 @@
                 display: grid;
                 grid-template-columns: repeat(3, 1fr);
                 /* desktop grid */
+            }
+
+            /* hovering effect */
+            .card:hover img {
+                transform: translateY(-8px) scale(1.05);
+                /* move up and make it a little bigger */
+                filter: brightness(1.2) opacity(0.85);
             }
         }
     </style>
