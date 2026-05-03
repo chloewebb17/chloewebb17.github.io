@@ -11,10 +11,6 @@ html, body {
 	font-family: Garamond, Times, serif;
 }
 
-html {
-    scroll-snap-type: x mandatory; /* force horizontal snapping to elements */
-}
-
 body {
     overflow-x: auto; /* show horizontal scrollbars */
 	overflow-y: hidden; /* hide vertical scrollbars */
