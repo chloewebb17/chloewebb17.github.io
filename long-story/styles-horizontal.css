@@ -12,12 +12,13 @@ html, body {
 }
 
 html {
-    scroll-snap-type: x mandatory; /* force horizontal snapping to elements */
+    
 }
 
 body {
     overflow-x: auto; /* show horizontal scrollbars */
 	overflow-y: hidden; /* hide vertical scrollbars */
+    scroll-snap-type: x mandatory; /* force horizontal snapping to elements */
 }
 
 /* eliminate default padding from content elements */
@@ -36,7 +37,7 @@ section {
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
-	scroll-snap-align: start; /* force scroll snap to center of sections */
+	scroll-snap-align: center; /* force scroll snap to center of sections */
     box-shadow: inset 1em 0 1em black, -1em 0 1em black;
 }
 

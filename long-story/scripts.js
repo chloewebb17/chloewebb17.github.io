@@ -1,6 +1,6 @@
-const scroller = document.querySelector("html");
+const scroller = document.querySelector("body");
 
 scroller.addEventListener("wheel", (e) => {
     e.preventDefault();
-    scroller.scrollRight += e.deltaY;
+    scroller.scrollLeft += e.deltaY;
 }, { passive: false });
