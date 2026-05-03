@@ -57,11 +57,9 @@ section {
 /* content divs within the sections are positioned absolutely to the top and right, almost half the page wide */
 section > .content {
     position: absolute;
-    width: 100%;
-    bottom: 3rem;
-    left: 0;
-    padding: 1rem;
     text-align: center;
-    color: white;
-    font-size: 2rem;
+    color: #987841;
+    font-size: 4rem;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
 }
