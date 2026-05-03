@@ -1,4 +1,4 @@
-const scroller = document.querySelector("main");
+const scroller = document.querySelector("html");
 
 scroller.addEventListener("wheel", (e) => {
     e.preventDefault();
