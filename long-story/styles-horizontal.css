@@ -12,13 +12,13 @@ html, body {
 }
 
 html {
-    
+    scroll-snap-type: x mandatory; /* force horizontal snapping to elements */  
 }
 
 body {
     overflow-x: auto; /* show horizontal scrollbars */
 	overflow-y: hidden; /* hide vertical scrollbars */
-    scroll-snap-type: x mandatory; /* force horizontal snapping to elements */
+
 }
 
 /* eliminate default padding from content elements */
