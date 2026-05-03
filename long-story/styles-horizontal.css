@@ -48,9 +48,9 @@ section {
 
 /* i considered adding the text with code but considering my time constraints i'm just using the final print files */
 #section1,
-#section4 { background-image: url('images/geranimo-qzgN45hseN0-unsplash.jpg'); }
-#section2 { background-image: url('images/kristjan-kotar--h15p84GY5k-unsplash.jpg'); }
-#section3 { background-image: url('images/greg-rosenke-8F47XWiUPrQ-unsplash.jpg'); }
+#section4 { background-image: url('003.png'); }
+#section2 { background-image: url('001.png'); }
+#section3 { background-image: url('002.png'); }
 
 /* custom box-shadows for first slide */
 #section1 { box-shadow: -1em 0 1em black; }
