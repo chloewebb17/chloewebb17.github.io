@@ -2,5 +2,5 @@ const scroller = document.querySelector("html");
 
 scroller.addEventListener("wheel", (e) => {
     e.preventDefault();
-    scroller.scrollLeft += e.deltaY;
+    scroller.scrollRight += e.deltaY;
 }, { passive: false });
