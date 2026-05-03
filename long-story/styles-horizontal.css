@@ -1,0 +1,67 @@
+/* Background Attachment Horizontal */
+
+* {
+    box-sizing: border-box; /* set box-sizing to make dimensions primary */
+}
+
+/* set spacing and font */
+html, body {
+	padding: 0;
+	margin: 0;
+	font-family: Garamond, Times, serif;
+}
+
+html {
+    scroll-snap-type: x mandatory; /* force horizontal snapping to elements */
+}
+
+body {
+    overflow-x: auto; /* show horizontal scrollbars */
+	overflow-y: hidden; /* hide vertical scrollbars */
+}
+
+/* eliminate default padding from content elements */
+h1, h2, p {
+	padding: 0;
+	margin: 0;
+}
+
+/* all sections are positioned absolute and have a full-page height of 100vh, plus some background settings */
+section {
+    position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+    width: 100vw;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+	scroll-snap-align: center; /* force scroll snap to center of sections */
+    box-shadow: inset 1em 0 1em black, -1em 0 1em black;
+}
+
+/* position specific sections from the left */
+#section2 { left: 100vw; }
+#section3 { left: 200vw; }
+#section4 { left: 300vw; }
+
+/* specific background images */
+#section1,
+#section4 { background-image: url('images/geranimo-qzgN45hseN0-unsplash.jpg'); }
+#section2 { background-image: url('images/kristjan-kotar--h15p84GY5k-unsplash.jpg'); }
+#section3 { background-image: url('images/greg-rosenke-8F47XWiUPrQ-unsplash.jpg'); }
+
+/* custom box-shadows for first slide */
+#section1 { box-shadow: -1em 0 1em black; }
+
+/* content divs within the sections are positioned absolutely to the top and right, almost half the page wide */
+section > .content {
+    position: absolute;
+    width: 100%;
+    bottom: 3rem;
+    left: 0;
+    padding: 1rem;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+}
