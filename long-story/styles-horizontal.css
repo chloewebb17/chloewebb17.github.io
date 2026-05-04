@@ -76,13 +76,44 @@ section {
 #section33 { left: 3200vw; }
 #section34 { left: 3300vw; }
 #section35 { left: 3400vw; }
-#section36 { left: 3500vw; }
 
 /* i considered adding the text with code but considering my time constraints i'm just using the final print files */
 #section1 { background-color: white; background-image: none; z-index: 999;}
 #section2 { background-image: url('dedication with text.png'); }
 #section3 { background-image: url('001.png'); }
 #section4 { background-image: url('002.png'); }
+#section5 { background-image: url('003.png'); }
+#section6 { background-image: url('004.png'); }
+#section7 { background-image: url('005 text.png'); }
+#section8 { background-image: url('006.png'); }
+#section9 { background-image: url('007 text.png'); }
+#section10 { background-image: url('008 text.png'); }
+#section11 { background-image: url('009 text.png'); }
+#section12 { background-image: url('010.png'); }
+#section13 { background-image: url('011 text.png'); }
+#section14 { background-image: url('012 text.png'); }
+#section15 { background-image: url('013 text.png'); }
+#section16 { background-image: url('014 text.png'); }
+#section17 { background-image: url('015 text.png'); }
+#section18 { background-image: url('016 text.png'); }
+#section19 { background-image: url('017 text.png'); }
+#section20 { background-image: url('018 text.png'); }
+#section21 { background-image: url('019.png'); }
+#section22 { background-image: url('020 text.png'); }
+#section23 { background-image: url('021.png'); }
+#section24 { background-image: url('022 text.png'); }
+#section25 { background-image: url('023 text.png'); }
+#section26 { background-image: url('024.png'); }
+#section27 { background-image: url('025.png'); }
+#section28 { background-image: url('026.png'); }
+#section29 { background-image: url('027 text.png'); }
+#section30 { background-image: url('028.png'); }
+#section31 { background-image: url('029.png'); }
+#section32 { background-image: url('030.png'); }
+#section33 { background-image: url('031 text.png'); }
+#section34 { background-image: url('032 text.png'); }
+#section35 { background-image: url('back cover cranes.png'); }
+
 
 /* custom box-shadows for first slide */
 #section1 { box-shadow: -1em 0 1em gray; }
