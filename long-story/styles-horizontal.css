@@ -138,7 +138,7 @@ section > .content {
     left: 50%;
     transform: translateY(-50%, -1.5rem); /* move upward */
     align-items: center;     /* vertical */
-    text-align: center; /* can you tell i really want this thing centered */
+    text-align: center;
     color: #987841;
 }
 
