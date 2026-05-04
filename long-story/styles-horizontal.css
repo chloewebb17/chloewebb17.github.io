@@ -77,6 +77,7 @@ section {
 #section33 { left: 3200vw; }
 #section34 { left: 3300vw; }
 #section35 { left: 3400vw; }
+#section36 { left: 3500vw; }
 
 /* i considered adding the text with code but considering my time constraints i'm just using the final print files */
 #section1 { background-color: white; background-image: none; z-index: 999;} /* hiding page crease */
@@ -113,7 +114,8 @@ section {
 #section32 { background-image: url('030.png'); }
 #section33 { background-image: url('031 text.png'); }
 #section34 { background-image: url('032 text.png'); }
-#section35 { background-color: white; background-image: url('back cover cranes.png'); z-index: 999;}
+#section35 { background-image: url('end.png'); }
+#section36 { background-color: white; background-image: url('back cover cranes.png'); z-index: 999;}
 
 
 /* custom box-shadows for first slide */
