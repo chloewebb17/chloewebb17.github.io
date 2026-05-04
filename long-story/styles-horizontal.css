@@ -74,15 +74,15 @@ section > .content {
   left: 50%;
   transform: translateX(-50%);
 
-  width: 100px;
+  width: 75px;
   height: 100vh;
 
   background: linear-gradient(
     to right,
     rgba(0,0,0,0) 0%,       /* fully faded left edge */
-    rgba(0,0,0,0.05) 25%,   /* left shadow */
+    rgba(0,0,0,0.05) 10%,   /* left shadow */
     rgba(0,0,0,0.8) 50%,   /* darkest center crease */
-    rgba(0,0,0,0.05) 75%,   /* right shadow */
+    rgba(0,0,0,0.05) 90%,   /* right shadow */
     rgba(0,0,0,0) 100%      /* fully faded right edge */
   );
 
