@@ -78,7 +78,7 @@ section > .content {
   height: 100vh;
 
   background: linear-gradient(
-    to right,
+    to center,
     rgba(0,0,0,0) 0%,      /* fully faded left */
     rgba(0,0,0,0.25) 35%,  /* soft shadow left side */
     rgba(0,0,0,0.45) 100%,  /* darkest point = crease */
