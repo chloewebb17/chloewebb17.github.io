@@ -11,7 +11,26 @@
 	<!-- external and internal CSS -->
 	<link rel="stylesheet" href="styles.css" media="all">
 	<style>
-		/* in-file CSS here */
+		body {
+            font-family: helvetica;
+            text-align: justify;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        p {
+            color:dimgray;
+        }
+
+		@media screen and (orientation: landscape) {
+		
+		body {
+		margin: 0 30vw
+		}
+
+		}
 	</style>
 
 </head>
@@ -19,20 +38,20 @@
 <body>
 
 	<h1>Chloe Webb</h1>
-	<p>Illustrator and Designer</p>
+	<p>Illustrator and Designer | <a href="https://github.com/chloewebb17/chloewebb17.github.io">GitHub Repository</a></p>
 
-	<p><a href="https://github.com/chloewebb17/chloewebb17.github.io">GitHub Repository</a></p>
-
-	<h2>Activities</h2>
+	<div class="Activities"><h2>Activities</h2>
 	<ul>
 		<li><a href="https://chloewebb17.github.io/codelogs/log1.html">Code Log 1</a></li>
 		<li><a href="https://chloewebb17.github.io/codelogs/log2">Code Log 2</a></li>
 		<li><a href="https://chloewebb17.github.io/codelogs/log3.html">Code Log 3</a></li>
 		<li><a href="https://chloewebb17.github.io/codelogs/log4.html">Code Log 4</a></li>
 		<li><a href="https://chloewebb17.github.io/codelogs/log5.html">Code Log 5</a></li>
+		<li><a href="https://chloewebb17.github.io/codelogs/log6.html">Code Log 6</a></li>
 	</ul>
+	</div>
 	
-	<h2>Tiny Projects</h2>
+	<div class="TinyProjects"><h2>Tiny Projects</h2>
 	<ul>
 		<li><a href="https://chloewebb17.github.io/favorite-recipe/">Shakshuka Recipe</a></li>
 		<li><a href="https://chloewebb17.github.io/anni-albers/">Design Quote Layout 1</a></li>
@@ -42,9 +61,11 @@
 		<li><a href="https://chloewebb17.github.io/recipe-minisite/">Recipe Minisite</a></li>
 		<li><a href="https://chloewebb17.github.io/dark-flower/">Dark Flower</a></li>
 	</ul>
+	</div>
 
-	<h2>Major Project</h2>
+	<div class="MajorProject"><h2>Major Project</h2>
 	<p>Coming Soon...</p>
+	</div>
 	
 </body>
 
