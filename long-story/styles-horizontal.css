@@ -67,12 +67,13 @@ section > .content {
     font-size: 4rem;
 }
 
+/* trying to add an effect in the middle that looks like book pages*/ 
 .center-line {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  width: 1px; /* thickness of the line */
-  height: 100%;
-  background-color: black; /* line color */
+  width: 1px;
+  height: 100vh;
+  background-color: black;
 }
