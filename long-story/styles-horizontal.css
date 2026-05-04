@@ -113,7 +113,7 @@ section {
 #section32 { background-image: url('030.png'); }
 #section33 { background-image: url('031 text.png'); }
 #section34 { background-image: url('032 text.png'); }
-#section35 { background-image: url('back cover cranes.png'); }
+#section35 { background-color: white; background-image: url('back cover cranes.png'); z-index: 999;}
 
 
 /* custom box-shadows for first slide */
