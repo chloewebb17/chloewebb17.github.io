@@ -80,9 +80,7 @@ section > .content {
   background: linear-gradient(
     to right,
     rgba(0,0,0,0) 0%,       /* fully faded left edge */
-    rgba(0,0,0,0.25) 25%,   /* left shadow */
     rgba(0,0,0,0.8) 50%,   /* darkest center crease */
-    rgba(0,0,0,0.25) 75%,   /* right shadow */
     rgba(0,0,0,0) 100%      /* fully faded right edge */
   );
 
