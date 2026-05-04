@@ -136,7 +136,7 @@ section > .content {
     font-size: 2rem;    
     top: 25%;
     left: 50%;
-    transform: translateY(-50%, -1.5rem); /* move upward */
+    transform: translate(-50%, -1.5rem); /* move upward */
     align-items: center;     /* vertical */
     text-align: center;
     color: #987841;
