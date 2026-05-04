@@ -45,6 +45,38 @@ section {
 #section2 { left: 100vw; }
 #section3 { left: 200vw; }
 #section4 { left: 300vw; }
+#section5 { left: 400vw; }
+#section6 { left: 500vw; }
+#section7 { left: 600vw; }
+#section8 { left: 700vw; }
+#section9 { left: 800vw; }
+#section10 { left: 900vw; }
+#section11 { left: 1000vw; }
+#section12 { left: 1100vw; }
+#section13 { left: 1200vw; }
+#section14 { left: 1300vw; }
+#section15 { left: 1400vw; }
+#section16 { left: 1500vw; }
+#section17 { left: 1600vw; }
+#section18 { left: 1700vw; }
+#section19 { left: 1800vw; }
+#section20 { left: 1900vw; }
+#section21 { left: 2000vw; }
+#section22 { left: 2100vw; }
+#section23 { left: 2200vw; }
+#section24 { left: 2300vw; }
+#section25 { left: 2400vw; }
+#section26 { left: 2500vw; }
+#section27 { left: 2600vw; }
+#section28 { left: 2700vw; }
+#section29 { left: 2800vw; }
+#section30 { left: 2900vw; }
+#section31 { left: 3000vw; }
+#section32 { left: 3100vw; }
+#section33 { left: 3200vw; }
+#section34 { left: 3300vw; }
+#section35 { left: 3400vw; }
+#section36 { left: 3500vw; }
 
 /* i considered adding the text with code but considering my time constraints i'm just using the final print files */
 #section1 { background-color: white; background-image: none; z-index: 999;}
