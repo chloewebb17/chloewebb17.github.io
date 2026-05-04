@@ -38,7 +38,7 @@ section {
     background-position: center center;
     background-attachment: fixed;
 	scroll-snap-align: center; /* force scroll snap to center of sections */
-    box-shadow: inset 1em 0 1em black, -1em 0 1em black;
+    box-shadow: inset 1em 0 1em gray, -1em 0 1em gray;
 }
 
 /* position specific sections from the left */
@@ -53,7 +53,7 @@ section {
 #section4 { background-image: url('002.png'); }
 
 /* custom box-shadows for first slide */
-#section1 { box-shadow: -1em 0 1em black; }
+#section1 { box-shadow: -1em 0 1em gray; }
 
 /* content divs within the sections are positioned absolutely to the top and right, almost half the page wide */
 section > .content {
