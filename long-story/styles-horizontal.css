@@ -74,7 +74,7 @@ section > .content {
   left: 50%;
   transform: translateX(-50%);
 
-  width: 1em;          /* wider so the shadow can feather out */
+  width: 2em;          /* wider so the shadow can feather out */
   height: 100vh;
 
   background: linear-gradient(
@@ -83,7 +83,7 @@ section > .content {
     rgba(0,0,0,0.25) 35%,  /* soft shadow left side */
     rgba(0,0,0,0.45) 100%,  /* darkest point = crease */
     rgba(0,0,0,0.25) 65%,  /* soft shadow right side */
-    rgba(0,0,0,0) 100%     /* fully faded right */
+    rgba(0,0,0,0) 0%     /* fully faded right */
   );
 
 }
