@@ -132,8 +132,8 @@ section > .content {
 }
 
 #end {
-    top: 25%;
     font-size: 2rem;
+    transform: translateY(-1.5rem); /* move upward */
 }
 
 /* trying to add an effect in the middle that looks like book pages*/ 
