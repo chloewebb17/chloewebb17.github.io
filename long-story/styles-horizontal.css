@@ -34,9 +34,10 @@ section {
 	left: 0;
 	height: 100%;
     width: 100vw;
-    background-size: contain;
+    background-size: contain; /* images were taller than viewport, so i'm making sure all text is readable */
     background-position: center center;
     background-attachment: fixed;
+    background-repeat: no-repeat; /* learned this lesson the hard way */
 	scroll-snap-align: center; /* force scroll snap to center of sections */
     box-shadow: inset 1em 0 1em gray, -1em 0 1em gray;
 }
