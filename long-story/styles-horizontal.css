@@ -34,7 +34,7 @@ section {
 	left: 0;
 	height: 100%;
     width: 100vw;
-    background-size: cover;
+    background-size: contain;
     background-position: center center;
     background-attachment: fixed;
 	scroll-snap-align: center; /* force scroll snap to center of sections */
