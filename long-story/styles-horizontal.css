@@ -132,7 +132,8 @@ section > .content {
 }
 
 #end {
-    font-size: 1rem;
+    top: 25%;
+    font-size: 2rem;
 }
 
 /* trying to add an effect in the middle that looks like book pages*/ 
