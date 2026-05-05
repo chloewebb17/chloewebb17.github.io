@@ -146,7 +146,7 @@ img {
     max-width: 100%;
 }
 
-.img:hover {
+.card:hover {
     filter: brightness(1.2);
 }
 
@@ -195,4 +195,10 @@ img {
         content: "";
     }
 
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr; /* two halves that will be unequal */
+        gap: 2rem;
+        align-items: start;
+    }
 }
