@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	
+
 	<!-- meta tags and title -->
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,27 +12,27 @@
 	<link rel="stylesheet" href="styles.css" media="all">
 	<style>
 		body {
-            font-family: helvetica;
-            text-align: justify;
+			font-family: helvetica;
+			text-align: justify;
 			background-color: azure;
 			margin: 30px;
-        }
+		}
 
-        h1 {
-            text-align: center;
+		h1 {
+			text-align: center;
 			font-size: 3.5rem;
 			font-style: Garamond;
-        }
+		}
 
 		h2 {
 			text-align: center;
 			font-style: Garamond;
 		}
 
-        p {
-            color: slategray;
+		p {
+			color: slategray;
 			text-align: center;
-        }
+		}
 
 		.Activities {
 			background-color: slategray;
@@ -46,6 +46,7 @@
 			padding: 10px;
 			margin-top: 30px;
 			color: azure;
+			flex: 1;
 		}
 
 		.MajorProject {
@@ -53,53 +54,62 @@
 			padding: 10px;
 			margin-top: 30px;
 			color: azure;
+			flex: 1;
 		}
 
 		/* from major project */
 		.card {
-        position: relative;
-        transition: transform 0.4s ease, filter 0.4s ease;
+			position: relative;
+			transition: transform 0.4s ease, filter 0.4s ease;
+			/* nice animation */
 		}
 
 		img {
 			max-width: stretch;
 			align-items: center;
-            justify-content: center;
+			justify-content: center;
 		}
 
 		.cardtext {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%); /* actually centering it in the box */
-            color: white;
-            text-align: center;
-            font-size: 2.5em;
-        }
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			/* actually centering it in the box */
+			color: white;
+			text-align: center;
+			font-size: 2em;
+		}
 
-        .card:hover {
-            filter: brightness(1.2) opacity(0.85);
-        }
+		.card:hover {
+			filter: brightness(1.2) opacity(0.85);
+		}
 
 		/* fixing link colors */
 		:link {
-		color: azure;
+			color: azure;
 		}
 
 		/* Visited link */
 		a:visited {
-		color: azure;
+			color: azure;
 		}
 
 		@media screen and (orientation: landscape) {
-		
-		body {
-			margin: 0 25vw
-		}
 
-		h1 {
-			font-size: 6rem;
-		}
+			body {
+				margin: 0 25vw
+			}
+
+			h1 {
+				font-size: 6rem;
+			}
+
+			.project-wrapper {
+    			display: flex;
+    			gap: 30px; 
+    			align-items: flex-start;
+  }
 
 		}
 	</style>
@@ -109,38 +119,47 @@
 <body>
 
 	<h1><b>Chloe Webb</b></h1>
-	<p>Illustrator and Designer | <a id=githublink href="https://github.com/chloewebb17/chloewebb17.github.io" style="color: slategray">GitHub Repository</a></p>
+	<p>Illustrator and Designer | <a id=githublink href="https://github.com/chloewebb17/chloewebb17.github.io"
+			style="color: slategray">GitHub Repository</a></p>
 
-	<div class="Activities"><h2><b>Activities</b></h2>
-	<ul>
-		<li><a href="https://chloewebb17.github.io/codelogs/log1.html">Code Log 1</a></li>
-		<li><a href="https://chloewebb17.github.io/codelogs/log2">Code Log 2</a></li>
-		<li><a href="https://chloewebb17.github.io/codelogs/log3.html">Code Log 3</a></li>
-		<li><a href="https://chloewebb17.github.io/codelogs/log4.html">Code Log 4</a></li>
-		<li><a href="https://chloewebb17.github.io/codelogs/log5.html">Code Log 5</a></li>
-		<li><a href="https://chloewebb17.github.io/codelogs/log6.html">Code Log 6</a></li>
-	</ul>
-	</div>
-	
-	<div class="TinyProjects"><h2><b>Tiny Projects</b></h2>
-	<ul>
-		<li><a href="https://chloewebb17.github.io/favorite-recipe/">Shakshuka Recipe</a></li>
-		<li><a href="https://chloewebb17.github.io/anni-albers/">Design Quote Layout 1</a></li>
-		<li><a href="https://chloewebb17.github.io/anni-albers/index2.html">Design Quote Layout 2</a></li>
-		<li><a href="https://chloewebb17.github.io/pacific-rhododendron/">Pacific Rhododendron</a></li>
-		<li><a href="https://chloewebb17.github.io/responsive-recipe/">Responsive Recipe</a></li>
-		<li><a href="https://chloewebb17.github.io/recipe-minisite/">Recipe Minisite</a></li>
-		<li><a href="https://chloewebb17.github.io/dark-flower/">Dark Flower</a></li>
-		<li><a href="https://chloewebb17.github.io/long-story/">Long Story</a></li>
-	</ul>
+	<div class="projects">
+		<div class="Activities">
+			<h2><b>Activities</b></h2>
+			<ul>
+				<li><a href="https://chloewebb17.github.io/codelogs/log1.html">Code Log 1</a></li>
+				<li><a href="https://chloewebb17.github.io/codelogs/log2">Code Log 2</a></li>
+				<li><a href="https://chloewebb17.github.io/codelogs/log3.html">Code Log 3</a></li>
+				<li><a href="https://chloewebb17.github.io/codelogs/log4.html">Code Log 4</a></li>
+				<li><a href="https://chloewebb17.github.io/codelogs/log5.html">Code Log 5</a></li>
+				<li><a href="https://chloewebb17.github.io/codelogs/log6.html">Code Log 6</a></li>
+			</ul>
+		</div>
+
+		<div class="TinyProjects">
+			<h2><b>Tiny Projects</b></h2>
+			<ul>
+				<li><a href="https://chloewebb17.github.io/favorite-recipe/">Shakshuka Recipe</a></li>
+				<li><a href="https://chloewebb17.github.io/anni-albers/">Design Quote Layout 1</a></li>
+				<li><a href="https://chloewebb17.github.io/anni-albers/index2.html">Design Quote Layout 2</a></li>
+				<li><a href="https://chloewebb17.github.io/pacific-rhododendron/">Pacific Rhododendron</a></li>
+				<li><a href="https://chloewebb17.github.io/responsive-recipe/">Responsive Recipe</a></li>
+				<li><a href="https://chloewebb17.github.io/recipe-minisite/">Recipe Minisite</a></li>
+				<li><a href="https://chloewebb17.github.io/dark-flower/">Dark Flower</a></li>
+				<li><a href="https://chloewebb17.github.io/long-story/">Long Story</a></li>
+			</ul>
+		</div>
 	</div>
 
-	<div class="MajorProject"><h2><b>Major Project</b></h2>
-	<p>An index of unique anime studios, the projects they've worked on, and their contributions to the anime industry as a whole. Take a look!</p>
-	<div class="card"><a href="https://chloewebb17.github.io/major-project/"><img src="utena pic.jpg"><div class="cardtext"><b>Click me!</b></div></a></div>
+	<div class="MajorProject">
+		<h2><b>Major Project</b></h2>
+		<p>An index of unique anime studios, the projects they've worked on, and their contributions to the anime
+			industry as a whole. Take a look!</p>
+		<div class="card"><a href="https://chloewebb17.github.io/major-project/"><img src="utena pic.jpg">
+				<div class="cardtext"><b>Click me!</b></div>
+			</a></div>
 
 	</div>
-	
+
 </body>
 
 </html>
