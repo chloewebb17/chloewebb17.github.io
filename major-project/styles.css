@@ -114,6 +114,10 @@ h1 {
     font-size: 5em;
 }
 
+p {
+    padding: 2rem
+}
+
 .coolshows {
     background-color:#3C19FF;
     color: white;
@@ -123,6 +127,7 @@ h1 {
 
 .card {
     padding: 0 1rem;
+    margin-bottom: 2rem;
 }
 
 img {
@@ -130,9 +135,6 @@ img {
     margin-top: 2em;
 }
 
-.cardtext {
-    margin-bottom: 2em
-}
 /* ----- MEDIA QUERY for landscape/desktop layout ----- */
 @media screen and (orientation: landscape) {
     #navBurger {
