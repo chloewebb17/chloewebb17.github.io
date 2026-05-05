@@ -137,18 +137,20 @@ p {
 
 .card {
     padding: 2rem;
-    padding-top: 0;
     transition: transform 0.4s ease, filter 0.4s ease;
     /* reusing this because i love it */
 }
 
 img {
     max-width: 100%;
-    margin-top: 2em;
 }
 
 .img:hover {
     filter: brightness(1.2) opacity(0.85);
+}
+
+#specialtext {
+    margin-bottom: 0;
 }
 
 /* ----- MEDIA QUERY for landscape/desktop layout ----- */
