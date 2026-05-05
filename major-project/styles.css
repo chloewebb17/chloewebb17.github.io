@@ -123,7 +123,7 @@ article {
 }
 
 
-p {
+.card p {
     padding: 2rem
 }
 
@@ -147,7 +147,7 @@ img {
 }
 
 .card:hover {
-    filter: brightness(1.2) opacity(0.85);
+    filter: brightness(1.2);
 }
 
 #specialtext {
