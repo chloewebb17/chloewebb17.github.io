@@ -121,6 +121,10 @@ article {
     padding: 2rem
 }
 
+p {
+    padding: 2rem
+}
+
 .coolshows {
     background-color: #3C19FF;
     color: white;
@@ -130,13 +134,13 @@ article {
 
 .card {
     padding: 2rem;
+    transition: transform 0.4s ease, filter 0.4s ease;
+    /* reusing this because i love it */
 }
 
 img {
     max-width: 100%;
     margin-top: 2em;
-    transition: transform 0.4s ease, filter 0.4s ease;
-    /* reusing this because i love it */
 }
 
 .img:hover {
