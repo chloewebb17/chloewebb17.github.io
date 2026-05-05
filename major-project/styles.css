@@ -15,7 +15,8 @@
 
 body {
     font-family: Helvetica;
-    width: 100%; /* i'm having issues with a mystery margin */
+    width: 100%;
+    /* i'm having issues with a mystery margin */
     margin: 0;
     padding: 0;
 }
@@ -112,27 +113,34 @@ h1 {
     font-family: "comba", helvetica, sans-serif;
     margin-top: 1em;
     font-size: 5em;
+    max-width: 100%;
+    padding: 2rem;
 }
 
-p {
+article {
     padding: 2rem
 }
 
 .coolshows {
-    background-color:#3C19FF;
+    background-color: #3C19FF;
     color: white;
     width: 100%;
     margin: 0;
 }
 
 .card {
-    padding: 0 1rem;
-    margin-bottom: 2rem;
+    padding: 2rem;
 }
 
 img {
     max-width: 100%;
     margin-top: 2em;
+    transition: transform 0.4s ease, filter 0.4s ease;
+    /* reusing this because i love it */
+}
+
+.img:hover {
+    filter: brightness(1.2) opacity(0.85);
 }
 
 /* ----- MEDIA QUERY for landscape/desktop layout ----- */
