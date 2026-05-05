@@ -105,6 +105,10 @@ nav>ul>li>ul>li:hover a {
     color: var(--nav-hover-text-color);
 }
 
+ main {
+    width: 100%;
+ }
+
 h1 {
     font-family: "comba", helvetica, sans-serif;
     margin-top: 1em;
