@@ -204,6 +204,7 @@ img {
 
     article {
         grid-column: 1;
+        font-size: 1.5rem;
     }
 
     .coolshows {
@@ -214,7 +215,7 @@ img {
 
     h1 {
         padding-left: 0;
-        font-size: 5rem;
+        font-size: 4.75rem;
         margin-top: 0.5;
         margin-bottom: 0.5;
     }
