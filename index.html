@@ -93,7 +93,11 @@
 			color: azure;
 		}
 
-		@media (min-width: 900px) {
+		@media screen and (orientation: landscape) {
+
+			body {
+				margin: 0 25vw
+			}
 
 			h1 {
 				font-size: 6rem;
@@ -114,13 +118,6 @@
 				flex:1;
 			}
   }
-
-  		@media screen and (orientation: landscape) {
-
-			body {
-				margin: 0 25vw
-			}
-		}
 	</style>
 
 </head>
