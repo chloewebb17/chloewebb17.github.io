@@ -15,6 +15,9 @@
 
 body {
     font-family: Helvetica;
+    width: 100%; /* i'm having issues with a mystery margin */
+    margin: 0;
+    padding: 0;
 }
 
 nav {
@@ -104,13 +107,6 @@ nav>ul>li>ul>li:hover {
 nav>ul>li>ul>li:hover a {
     color: var(--nav-hover-text-color);
 }
-
-/* i'm having issues with a mystery margin */
-main {
-    width: 100%;
-    margin: 0;
-    padding: 0;
- }
 
 h1 {
     font-family: "comba", helvetica, sans-serif;
