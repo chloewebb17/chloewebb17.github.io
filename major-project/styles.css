@@ -201,4 +201,14 @@ img {
         gap: 2rem;
         align-items: start;
     }
+
+    article {
+        grid-column: 2;
+    }
+
+    .coolshows {
+        grid-column: 1;
+        box-sizing: border-box;
+        height: fit-content;
+    }
 }
