@@ -93,18 +93,14 @@
 			color: azure;
 		}
 
-		@media screen and (orientation: landscape) {
-
-			body {
-				margin: 0 25vw
-			}
+		@media (min-width: 900px) {
 
 			h1 {
 				font-size: 6rem;
 				margin-bottom: 0.5;
 			}
 
-			.projects {
+			.project {
     			display: flex;
     			gap: 30px; 
     			align-items: flex-start;
@@ -118,6 +114,13 @@
 				flex:1;
 			}
   }
+
+  		@media screen and (orientation: landscape) {
+
+			body {
+				margin: 0 25vw
+			}
+		}
 	</style>
 
 </head>
