@@ -105,8 +105,11 @@ nav>ul>li>ul>li:hover a {
     color: var(--nav-hover-text-color);
 }
 
- main {
+/* i'm having issues with a mystery margin */
+main {
     width: 100%;
+    margin: 0;
+    padding: 0;
  }
 
 h1 {
