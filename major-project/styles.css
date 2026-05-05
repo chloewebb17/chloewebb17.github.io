@@ -123,7 +123,7 @@ article {
 }
 
 
- .card p {
+.card p {
     padding: 2rem
 }
 
@@ -210,5 +210,11 @@ img {
         grid-column: 2;
         box-sizing: border-box;
         height: fit-content;
+    }
+
+    h1 {
+        padding-left: 0;
+        font-size: 7rem;
+        margin: 0.5em
     }
 }
