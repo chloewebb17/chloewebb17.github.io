@@ -122,9 +122,83 @@
         }
 
         h1 {
-            font-family:"comba", helvetica, sans-serif;
+            font-family: "comba", helvetica, sans-serif;
             margin-top: 1em;
             font-size: 5em;
+        }
+
+        .contact {
+            padding: 2rem 1.5rem;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        /* Header */
+        .contact h1 {
+            font-family: "comba", helvetica, sans-serif;
+            font-size: clamp(2.5rem, 8vw, 4rem);
+            margin-bottom: 1rem;
+        }
+
+        /* Intro paragraph */
+        .contact .intro {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 2rem;
+        }
+
+        /* Form */
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            margin-bottom: 3rem;
+        }
+
+        .contact-form label {
+            display: flex;
+            flex-direction: column;
+            font-weight: bold;
+            font-size: 0.9rem;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            margin-top: 0.5rem;
+            padding: 0.75rem;
+            font-size: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            font-family: inherit;
+        }
+
+        /* Button */
+        .contact-form button {
+            background: #3C19FF;
+            color: white;
+            border: none;
+            padding: 0.9rem 1.2rem;
+            font-size: 1.1rem;
+            border-radius: 6px;
+            cursor: pointer;
+            width: fit-content;
+        }
+
+        .contact-form button:hover {
+            opacity: 0.9;
+        }
+
+        /* Alternate contact block */
+        .alt-contact {
+            background: #3C19FF;
+            color: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+        }
+
+        .alt-contact h2 {
+            margin-top: 0;
+            font-size: 1.4rem;
         }
 
         /* ----- MEDIA QUERY for landscape/desktop layout ----- */
@@ -165,6 +239,23 @@
 
             nav>ul>li>a::after {
                 content: "";
+            }
+
+            .contact {
+                display: grid;
+                grid-template-columns: 2fr 1fr;
+                gap: 3rem;
+                align-items: start;
+            }
+
+            .contact-form {
+                margin-bottom: 0;
+            }
+
+            .alt-contact {
+                position: sticky;
+                top: 2rem;
+                /* optional: keeps it visible while scrolling */
             }
 
         }
@@ -214,11 +305,40 @@
 
     </nav>
 
-    <main>
-        <header>
-            <h1><b>Contact</b></h1>
-        </header>
+    <main class="contact">
+        <h1>Contact Us</h1>
+
+        <p class="intro">
+            Have a question, comment, or project idea?
+            Send us a message and we’ll get back to you soon.
+        </p>
+
+        <form class="contact-form">
+            <label>
+                Your Name
+                <input type="text" name="name" required>
+            </label>
+
+            <label>
+                Email Address
+                <input type="email" name="email" required>
+            </label>
+
+            <label>
+                Message
+                <textarea name="message" rows="6" required></textarea>
+            </label>
+
+            <button type="submit">Send Message</button>
+        </form>
+
+        <section class="alt-contact">
+            <h2>Other Ways to Reach Us</h2>
+            <p>Email: hello@example.com</p>
+            <p>Instagram: @studio</p>
+        </section>
     </main>
+
 
 </body>
 
